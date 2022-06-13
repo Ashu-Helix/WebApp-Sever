@@ -1,0 +1,30 @@
+{
+    "code": "import turtle\n\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\n\nt1.forward(100)\nt1.backward(100)\n\nt1.forward(-100)\nt1.backward(-100)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut10",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size: 20px; color: rgb(239, 239, 239); background-color: rgb(0, 0, 0);\">The forward command moves the turtle object forward by the number of pixels we give inside the parentheses. In this case, we are asking our turtle to move forward by 100 pixels</span></p>",
+            "code": "import turtle\n\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\n\nt1.forward(100)",
+            "audio": ""
+        },
+        {
+            "id": "tut11",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size: 20px; color: rgb(239, 239, 239); background-color: rgb(0, 0, 0);\">Similarly, the backward command moves the turtle object backwards by 100 pixels</span></p>",
+            "code": "import turtle\n\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\n\nt1.forwarnd(100)\nt1.backward(100)",
+            "audio": ""
+        },
+        {
+            "id": "tut12",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size: 20px; color: rgb(239, 239, 239); background-color: rgb(0, 0, 0);\">Now let&apos;s try putting a negative sign. when a negative sign is given before the number of pixels, the turtle object goes in the reverse direction</span></p>",
+            "code": "import turtle\n\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\n\nt1.forward(100)\nt1.backward(100)\n\nt1.forward(",
+            "audio": ""
+        },
+        {
+            "id": "tut13",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size: 20px; color: rgb(239, 239, 239); background-color: rgb(0, 0, 0);\">Similarly putting a negative sign backwards will make it move in the opposite direction</span></p>",
+            "code": "import turtle\n\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\n\nt1.forward(100)\nt1.backward(100)\n\nt1.forward(-100)\nt1.backward(",
+            "audio": ""
+        }
+    ]
+}

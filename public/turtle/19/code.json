@@ -1,0 +1,24 @@
+{
+    "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\nt1.color('red')\nt1.speed(1)\n\nfor i in range(4):\n    t1.forward(100)\n    t1.right(90)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut14",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">You can also decide at which speed your turtle should move using the speed function. 1 is the slowest, and the speed increases as u increase the number. if u want to set it to the fastest speed, just give it 0.</span></p>",
+            "code": "import turtle\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\nt1.color('red')\nt1.",
+            "audio": ""
+        },
+        {
+            "id": "tut15",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">To see how the speed has been affected, let&apos;s try drawing a square</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\nt1.color('red')\nt1.speed(1)\n\nfor i in range(4):",
+            "audio": ""
+        },
+        {
+            "id": "tut17",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Try to change the speed, and see how the result changes</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\nt1.color('red')\nt1.speed(1)\n\nfor i in range(4):\n    t1.forward(100)\n    t1.right(90)",
+            "audio": ""
+        }
+    ]
+}

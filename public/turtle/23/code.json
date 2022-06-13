@@ -1,0 +1,30 @@
+{
+    "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt = turtle.Turtle()\nt.circle(2)\n\nfor i in range(35):\n    print(i)\n    t.circle(2*i)\n    t.circle(-2*i)\n    t.left(i)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut25",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">In this lesson you will learn to create a spiral helix pattern, we will be continuing from the code from our last lesson&nbsp;</span></p>",
+            "code": "import turtle\nwn = turtle.Screen()\nwn.bgcolor('white')",
+            "audio": ""
+        },
+        {
+            "id": "tut26",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Let&apos;s start by creating a loop and increasing the size of the circle rapidly and drawing it</span></p>",
+            "code": "import turtle\nwn = turtle.Screen()\nwn.bgcolor('white')\nt = turtle.Turtle()\nt.circle(2)\nfor i in range(35):",
+            "audio": ""
+        },
+        {
+            "id": "tut27",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">By giving a negative sign, the same size circle is drawn in the opposite direction</span></p>",
+            "code": "import turtle\nwn = turtle.Screen()\nwn.bgcolor('white')\nt = turtle.Turtle()\nt.circle(2)\nfor i in range(35):\n   print(i)\n   t.circle(2*i)",
+            "audio": ""
+        },
+        {
+            "id": "tut28",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Finally, we are changing the direction of our turtle by 1 degree every time, so we don&apos;t overlap on the same circle</span></p>",
+            "code": "import turtle\nwn = turtle.Screen()\nwn.bgcolor('white')\nt = turtle.Turtle()\nt.circle(2)\nfor i in range(35):\n   print(i)\n   t.circle(2*i)\n   t.circle(-2*i)",
+            "audio": ""
+        }
+    ]
+}

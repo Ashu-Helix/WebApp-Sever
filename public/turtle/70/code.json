@@ -1,0 +1,30 @@
+{
+    "code": "import turtle\n\nt = turtle.Turtle()",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut1",
+            "img": "<p style='margin:0cm;font-size:20px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0),\">The <strong>Import</strong> Statement can be used to import libraries from python.</span></p>\n<p style='margin:0cm;font-size:20px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0),\">Python <strong>library</strong> is a collection of functions and methods that allows you to perform many actions without writing your code.</span></p>",
+            "code": "import",
+            "audio": ""
+        },
+        {
+            "id": "tut2",
+            "img": "<p style='margin:0cm;font-size:20px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0),\">Turtle Library: the turtle is a pre-installed Python library that enables users to create pictures and shapes by providing them with a virtual canvas. The onscreen pen that you use for drawing is called the turtle and this is what gives the library its name.</span></p>",
+            "code": "import turtle",
+            "audio": ""
+        },
+        {
+            "id": "tut3",
+            "img": "<p style='margin:0cm;font-size:20px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0),\">Turtle Objects: To Start Using Turtle to draw shapes, patterns and create games, first you have to create a turtle object. To Create a turtle object you have to type turtle.Turtle().</span></p>",
+            "code": "import turtle\n\nt = ",
+            "audio": ""
+        },
+        {
+            "id": "tut4",
+            "img": "<p style='margin:0cm;font-size:20px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0),\">The Turtle object is used to draw stuff. It holds some data (eg its current position and colour), and it also has some functions attached to it (functions attached to objects are often called methods), you can call those functions to make the Turtle object do stuff, like move or draw.</span></p>",
+            "code": "import turtle\n\nt = turtle.Turtle()",
+            "audio": ""
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "code": "a = \"Hello World\"\nb = 20\nc = 20.5",
+    "guide": [
+        {
+            "id": "intro",
+            "img": "intro_datatypes.png",
+            "code": "",
+            "audio": ""
+        },
+        {
+            "id": "tip0",
+            "img": "tip_0_strings.png",
+            "code": "a",
+            "audio": "line12.mp3"
+        },
+        {
+            "id": "tip1",
+            "img": "tip_1_double quotation.png",
+            "code": "a = \"Hello World\"",
+            "audio": "line14.mp3"
+        },
+        {
+            "id": "tip2",
+            "img": "tip_2_integer.png",
+            "code": "a = \"Hello World\"",
+            "audio": "line18.mp3"
+        },
+        {
+            "id": "tip3",
+            "img": "tip_3_float.png",
+            "code": "a = \"Hello World\"\nb = 20\nc",
+            "audio": "line20.mp3"
+        }
+    ]
+}

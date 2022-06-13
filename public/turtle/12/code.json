@@ -1,0 +1,24 @@
+{
+    "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('green')\n\nt1 = turtle.Turtle()\nt1.goto(100,0)\n\nt1.goto(0,0)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut12",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Co-ordinates and how to use them: the co-ordinates in turtle work similar to co-ordinates to what you learnt in the last grade. we can use the goto function to change the position of a certain object.the default position is (0,0). which is the centre.</span></p>",
+            "code": "import turtle\nwn = turtle.Screen()\nwn.bgcolor('green')",
+            "audio": ""
+        },
+        {
+            "id": "tut13",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">The co-ordinate goes in the first slot, and the co-ordinate goes in the next slot. by giving goto(100,0) we are setting the x coordinate to 100, and y co-ordinate as 0</span></p>",
+            "code": "import turtle\nwn = turtle.Screen()\nwn.bgcolor('green')\nt1 = turtle.Turtle()\nt1.goto(100,0)",
+            "audio": ""
+        },
+        {
+            "id": "tut14",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Now let&apos;s move our turtle back to its origin co-ordinate (0,0). we are setting the x and y coordinates to 0</span></p>",
+            "code": "import turtle\nwn = turtle.Screen()\nwn.bgcolor('green')\nt1 = turtle.Turtle()\nt1.goto(100,0)\nt1.goto(0,0)",
+            "audio": ""
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "code": "import turtle\n\n\nwn = turtle.Screen()\nwn.bgcolor(\"light green\")\n\nt = turtle.Turtle()\nt.color(\"blue\")\n\ndef sqrfunc(size):\n\tfor i in range(4):\n\t\tt.fd(size)\n\t\tt.left(90)\n\t\tsize = size + 5\n\nsqrfunc(6)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut1",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">We will create advanced functions now, where the size of the square keeps on increasing automatically</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()",
+            "audio": ""
+        },
+        {
+            "id": "tut2",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Let&rsquo;s set the screen colour like light green and the turtle colour as blue</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor(\"light green\")\n\nt = turtle.Turtle()\nt.",
+            "audio": ""
+        },
+        {
+            "id": "tut3",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">We are defining a function to draw a square, the function takes in only the size as the argument</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor(\"light green\")\n\nt = turtle.Turtle()\nt.color(\"blue\")\n\ndef sqrfunc(size)",
+            "audio": ""
+        },
+        {
+            "id": "tut4",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">We are going to increase the size by 5 every time the loop is being run.</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor(\"light green\")\n\nt = turtle.Turtle()\nt.color(\"blue\")\n\ndef sqrfunc(size):\n\tfor i in range(4):\n\t\tt.fd(size)\n\t\tt.left(90)\n\t\tsize = size + 5",
+            "audio": ""
+        },
+        {
+            "id": "tut17",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Now while calling the function, mention the size of the square to be in place of x</span></p>",
+            "code": "import turtle\n\n\nwn = turtle.Screen()\nwn.bgcolor(\"light green\")\n\nt = turtle.Turtle()\nt.color(\"blue\")\n\ndef sqrfunc(size):\n\tfor i in range(4):\n\t\tt.fd(size)\n\t\tt.left(90)\n\t\tsize = size + 5\n\nsqrfunc(6)",
+            "audio": ""
+        }
+    ]
+}

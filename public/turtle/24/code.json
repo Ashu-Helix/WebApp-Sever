@@ -1,0 +1,42 @@
+{
+    "code": "import turtle\ncolors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']\nt = turtle.Turtle()\n\nfor x in range(30):\n    t.pencolor(colors[x%6])\n    t.width(x)\n    t.forward(50)\n    t.left(60)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut1",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Let&rsquo;s now learn about the width function in turtles, by using the width function you can change the width of the turtle object</span></p>",
+            "code": "import turtle",
+            "audio": ""
+        },
+        {
+            "id": "tut2",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">We are going to draw a hexagon with multiple colours, just like we did in the last lesson</span></p>",
+            "code": "import turtle\ncolors = ",
+            "audio": ""
+        },
+        {
+            "id": "tut3",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Since a hexagon had six sides, we are going to set 6 colours.</span></p>",
+            "code": "import turtle\ncolors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']",
+            "audio": ""
+        },
+        {
+            "id": "tut5",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Let&rsquo;s loop for 100 times, each time changing the colours. since there are six colours</span></p>",
+            "code": "import turtle\ncolors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']\nt = turtle.Turtle()\n\nfor x in range(30):\n    t.pencolor",
+            "audio": ""
+        },
+        {
+            "id": "tut8",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">We are going to increase the width rapidly every time the loop is being run width at first run - 0width at second run - 1width at third run - 3the width will be kept on increasing like that</span></p>",
+            "code": "import turtle\ncolors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']\nt = turtle.Turtle()\n\nfor x in range(30):\n    t.pencolor(colors[x%6])\n    t.width",
+            "audio": ""
+        },
+        {
+            "id": "tut9",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Now let&rsquo;s draw a hexagon, which increases its width rapidly, watch how the width of the hexagon changes as the loop runs</span></p>",
+            "code": "import turtle\ncolors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']\nt = turtle.Turtle()\n\nfor x in range(30):\n    t.pencolor(colors[x%6])\n    t.width(x)\n    t.forward(50)",
+            "audio": ""
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nfor i in range(2):\n   t1.forward(200)\n   t1.right(90)\n   t1.forward(100)\n   t1.right(90)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut2",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">In the last lesson, we drew a square, now let&apos;s try and draw a rectangle</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()",
+            "audio": ""
+        },
+        {
+            "id": "tut3",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">We are online going to make it loop two times since the rectangle has two different heights and widths</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nfor i in range(2):",
+            "audio": ""
+        },
+        {
+            "id": "tut4",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Our Turtle will go forward by 200 pixels, turn right and then go forward for 100 pixels, and turn right again. we are going to repeat this 2 times, hence drawing our rectangle</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nfor i in range(2):\n   t1.",
+            "audio": ""
+        }
+    ]
+}

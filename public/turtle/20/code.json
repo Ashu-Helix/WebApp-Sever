@@ -1,0 +1,24 @@
+{
+    "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt = turtle.Turtle()\nt.penup()\nt.goto(-100,0)\nt.pendown()\n\nfor c in ['red', 'green', 'yellow', 'blue']:\n    t.color(c)\n    t.forward(75)\n    t.left(90)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut18",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">In this lesson, we will try to change the colour of the turtle for every instance of the for loop</span></p>",
+            "code": "import turtle\n wn = turtle.Screen()\nwn.bgcolor('white')",
+            "audio": ""
+        },
+        {
+            "id": "tut19",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">First, make our turtle object goto -100,0</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt = turtle.Turtle()\nt.penup()\nt.goto",
+            "audio": ""
+        },
+        {
+            "id": "tut20",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">We will run through for loop that has a list of colours, and every time the loop is being run the colour of the turtle changes</span></p>\n<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">&nbsp;</span></p>\n<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">On the first run, its colour is red; on the second run, its colour is green; on the third run, its colour is yellow; on the fourth run, its colour is blue</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt = turtle.Turtle()\nt.penup()\nt.goto(-100,0)\nt.pendown()\n\nfor c in ['red', 'green', 'yellow', 'blue']:",
+            "audio": ""
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor(\"green\")\n\npen = turtle.Turtle()\npen.color('white')\npen.speed(0)\n\npen.penup()\npen.goto(-100,100)\n\npen.write(0)\npen.right(90)\npen.forward(10)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut9",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0), font-size: 22px;\">Let&rsquo;s start drawing our race track in this lesson</span></p>\n",
+            "code": "import turtle",
+            "audio": ""
+        },
+        {
+            "id": "tut10",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0), font-size: 22px;\">We are making our pen write the number 0, and then turn right, and move forward by 10 pixels from there</span></p>\n",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor(\"green\")\n\npen = turtle.Turtle()\npen.color('white')\npen.speed(0)\n\npen.penup()\npen.goto(-100,100)\n\npen.",
+            "audio": ""
+        }
+    ]
+}

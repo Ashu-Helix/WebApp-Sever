@@ -1,0 +1,30 @@
+{
+    "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\nt1.color('red')\nt1.penup()\nt1.goto(-100,0)\n\nt2 = turtle.Turtle()\nt2.color('yellow')\nt2.penup()\nt2.goto(0,0)\n\nt3 = turtle.Turtle()\nt3.color('blue')\nt3.penup()\nt3.goto(100,0)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut7",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">In this lesson, we are going to create three turtle objects and assign separate features for all three of them.</span></p>",
+            "code": "import turtle\nwn = turtle.Screen()\nwn.bgcolor('white')",
+            "audio": ""
+        },
+        {
+            "id": "tut8",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">For the first turtle object, we are going to place it at -100 on the x-axis and set the colour as red</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()",
+            "audio": ""
+        },
+        {
+            "id": "tut9",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">For the second turtle object, we are going to place it at 0 on the x-axis and set the colour as yellow</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\nt1.color('red')\nt1.penup()\nt1.goto(-100,0)\n\nt2 = turtle.Turtle()",
+            "audio": ""
+        },
+        {
+            "id": "tut11",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">For the third turtle object, we are going to place it at 100 on the x-axis and set the colour as blue</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\nt1.color('red')\nt1.penup()\nt1.goto(-100,0)\n\nt2 = turtle.Turtle()\nt2.color('yellow')\nt2.penup()\nt2.goto(0,0)\n\nt3 = turtle.Turtle()",
+            "audio": ""
+        }
+    ]
+}

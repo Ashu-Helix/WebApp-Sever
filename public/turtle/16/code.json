@@ -1,0 +1,42 @@
+{
+    "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\n\nt1.goto(100,0)\nt1.goto(100,100)\nt1.goto(-100,100)\nt1.goto(-100,0)\n\nt1.goto(0,0)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut1",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Draw a rectangle just by using our goto functions, to get a hang of coordinates we can use our goto function to try and draw a shape.</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')",
+            "audio": ""
+        },
+        {
+            "id": "tut2",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">First, move our turtle to 100 pixels at x by giving (100,0)</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\n\nt1.goto(100,0)",
+            "audio": ""
+        },
+        {
+            "id": "tut3",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Now move our turtle to 100 pixels at y, therefore moving it top by giving (100,100)</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\n\nt1.goto(100,0)\nt1.goto(100,100)",
+            "audio": ""
+        },
+        {
+            "id": "tut4",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Now move our turtle to the opposite direction, since we are just moving it along the x-axis, make the x-axis negative by giving (-100,100)</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\n\nt1.goto(100,0)\nt1.goto(100,100)\nt1.goto(-100,100)",
+            "audio": ""
+        },
+        {
+            "id": "tut5",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">We have to move our turtle downwards now, so move it along the y-direction making it 0 again</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\n\nt1.goto(100,0)\nt1.goto(100,100)\nt1.goto(-100,100)\nt1.goto(-100,0)",
+            "audio": ""
+        },
+        {
+            "id": "tut6",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Let&apos;s get back to origin by giving (0,0)</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\n\nt1.goto(100,0)\nt1.goto(100,100)\nt1.goto(-100,100)\nt1.goto(-100,0)\n\nt1.goto(0,0)",
+            "audio": ""
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\nt1.color('red')\nt1.penup()\nt1.goto(-100,0)\n\nt2 = turtle.Turtle()\nt2.color('yellow')\nt2.penup()\nt2.goto(0,0)\n\nt3 = turtle.Turtle()\nt3.color('blue')\nt3.penup()\nt3.goto(100,0)\n\nt1.shape('square')\nt2.shape('circle')\nt3.shape('triangle')",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut12",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Different shapes can be set to a turtle object, we can use the shape function to do that</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\nt1.color('red')\nt1.penup()\nt1.goto(-100,0)\n\nt2 = turtle.Turtle()\nt2.color('yellow')\nt2.penup()\nt2.goto(0,0)\n\nt3 = turtle.Turtle()\n           t3.color('blue')\n           t3.penup()\n           t3.goto(100,0)\n           \n           t1.shape('square')",
+            "audio": ""
+        },
+        {
+            "id": "tut13",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">We will set all three turtle objects to three different shapes</span></p>\n<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">&nbsp;</span></p>\n<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">t1 = Square&nbsp;</span></p>\n           <p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">t2 = Circle&nbsp;</span></p>\n<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">t3 = Triangle</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt1 = turtle.Turtle()\nt1.color('red')\nt1.penup()\nt1.goto(-100,0)\n\nt2 = turtle.Turtle()\nt2.color('yellow')\nt2.penup()\nt2.goto(0,0)\n\nt3 = turtle.Turtle()\nt3.color('blue')\nt3.penup()\nt3.goto(100,0)\n\nt1.shape('square')\nt2.shape('circle')\nt3.shape('triangle')",
+            "audio": ""
+        }
+    ]
+}

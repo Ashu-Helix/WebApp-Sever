@@ -1,0 +1,18 @@
+{
+    "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('green')\nt1 = turtle.Turtle()\nt1.goto(0,100)\nt1.goto(0,0)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut13",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">The x coordinate goes in the first slot, and the y coordinates go in the next slot. by giving goto(0,100) we are setting the x coordinate is 0, and y co-ordinate as 100</span></p>",
+            "code": "import turtle\nwn = turtle.Screen()\nwn.bgcolor('green')\nt1 = turtle.Turtle()\nt1.goto(0,100)",
+            "audio": ""
+        },
+        {
+            "id": "tut14",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Now let&apos;s move our turtle back to its origin co-ordinate (0,0). we are setting the x and y coordinates to 0</span></p>",
+            "code": "import turtle\nwn = turtle.Screen()\nwn.bgcolor('green')\nt1 = turtle.Turtle()\nt1.goto(0,100)\nt1.goto(0,0)",
+            "audio": ""
+        }
+    ]
+}

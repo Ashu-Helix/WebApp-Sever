@@ -1,0 +1,24 @@
+{
+    "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('green')\n\nt1 = turtle.Turtle()\nt1.penup()\n\nt1.goto(-100,0)\nt1.goto(0,0)\n\nt1.goto(0,-100)\nt1.goto(0,0)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut1",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Similarly when we give the - sign, it moves in the negative x and negative y-direction respectively.</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('green')\n\nt1 = turtle.Turtle()\nt1.penup()\n\nt1.",
+            "audio": ""
+        },
+        {
+            "id": "tut2",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Let&apos;s try setting the x-direction to -100 and see how our turtle moves for that.</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('green')\n\nt1 = turtle.Turtle()\nt1.penup()\n\nt1.goto(-100,0)\nt1.goto(0,0)",
+            "audio": ""
+        },
+        {
+            "id": "tut3",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Now set the y-direction to -100 and see how our turtle moves.</span></p>\n",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('green')\n\nt1 = turtle.Turtle()\nt1.penup()\n\nt1.goto(-100,0)\nt1.goto(0,0)\n\nt1.goto(0,-100)\nt1.goto(0,0)",
+            "audio": ""
+        }
+    ]
+}

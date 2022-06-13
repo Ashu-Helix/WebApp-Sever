@@ -1,0 +1,42 @@
+{
+    "code": "import turtle\nimport datetime as dt\n\nwn = turtle.Screen()\nwn.bgcolor(\"white\")\n\nt1 = turtle.Turtle()\nt1.pensize(3)\nt1.color('black')\nt1.penup()\n\nt1.goto(-10, 0)\nt1.pendown()\n\nfor i in range(2):\n\tt1.forward(250)\n\tt1.left(90)\n\tt1.forward(70)\n\tt1.left(90)\n\nt1.hideturtle()\n\nt = turtle.Turtle()\nt.goto(0,10)\n\nhr = dt.datetime.now().hour\nmn = dt.datetime.now().minute\nsec = dt.datetime.now().second\n\nwhile True:\n    t.hideturtle()\n    t.clear()\n    t.write(str(hr).zfill(2)+\":\"\n    +str(min).zfill(2)+\":\"\n    +str(sec).zfill(2),\n    font =(\"Arial Narrow\", 35, \"bold\"))\n\n    sec = dt.datetime.now().second\n    min = dt.datetime.now().minute\n    hr = dt.datetime.now().hour",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut1",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0), font-size: 22px;\">Let&rsquo;s put together all the code we have done in the previous lessons, and complete our clock</span></p>\n",
+            "code": "import turtle\nimport datetime as dt",
+            "audio": ""
+        },
+        {
+            "id": "tut2",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0), font-size: 22px;\">First, we created a turtle object to draw the boundary of our clock</span></p>\n",
+            "code": "import turtle\nimport datetime as dt\n\nwn = turtle.Screen()\nwn.bgcolor(\"white\")\n\nt1",
+            "audio": ""
+        },
+        {
+            "id": "tut3",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0), font-size: 22px;\">Then we fixed an initial point for our turtle object and drew the boundary</span></p>\n",
+            "code": "import turtle\nimport datetime as dt\n\nwn = turtle.Screen()\nwn.bgcolor(\"white\")\n\nt1 = turtle.Turtle()\nt1.pensize(3)\nt1.color('black')\nt1.penup()\n\nt1.goto(-50, 0)\nt1.pendown()",
+            "audio": ""
+        },
+        {
+            "id": "tut4",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0), font-size: 22px;\">Then we created a turtle object to display our clock and called the hour, minute and second using the DateTime function</span></p>\n",
+            "code": "import turtle\nimport datetime as dt\n\nwn = turtle.Screen()\nwn.bgcolor(\"white\")\n\nt1 = turtle.Turtle()\nt1.pensize(3)\nt1.color('black')\nt1.penup()\n\nt1.goto(-50, 0)\nt1.pendown()\n\nfor i in range(2):\n\tt1.forward(250)\n\tt1.left(90)\n\tt1.forward(70)\n\tt1.left(90)\n\nt1.hideturtle()\n\nt = turtle.Turtle()\nt.goto(0,10)",
+            "audio": ""
+        },
+        {
+            "id": "tut5",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0), font-size: 22px;\">Finally, we displayed the time &nbsp;and keep on updating it by calling the DateTime function again in the loop</span></p>\n",
+            "code": "import turtle\nimport datetime as dt\n\nwn = turtle.Screen()\nwn.bgcolor(\"white\")\n\nt1 = turtle.Turtle()\nt1.pensize(3)\nt1.color('black')\nt1.penup()\n\nt1.goto(-50, 0)\nt1.pendown()\n\nfor i in range(2):\n\tt1.forward(250)\n\tt1.left(90)\n\tt1.forward(70)\n\tt1.left(90)\n\nt1.hideturtle()\n\nt = turtle.Turtle()\nt.goto(0,10)\n\nhr = dt.datetime.now().hour\nmn = dt.datetime.now().minute\nsec = dt.datetime.now().second\n\nwhile True:\n    t.hideturtle()\n    t.clear()\n    t.write(str(hr).zfill(2)+\":\"\n    +str(min).zfill(2)+\":\"\n    +str(sec).zfill(2),\n    font =(\"Arial Narrow\", 35, \"bold\"))",
+            "audio": ""
+        },
+        {
+            "id": "tut6",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0), font-size: 22px;\">Now your digital clock is ready to be displayed and run forever</span></p>",
+            "code": "import turtle\nimport datetime as dt\n\nwn = turtle.Screen()\nwn.bgcolor(\"white\")\n\nt1 = turtle.Turtle()\nt1.pensize(3)\nt1.color('black')\nt1.penup()\n\nt1.goto(-50, 0)\nt1.pendown()\n\nfor i in range(2):\n\tt1.forward(250)\n\tt1.left(90)\n\tt1.forward(70)\n\tt1.left(90)\n\nt1.hideturtle()\n\nt = turtle.Turtle()\nt.goto(0,10)\n\nhr = dt.datetime.now().hour\nmn = dt.datetime.now().minute\nsec = dt.datetime.now().second\n\nwhile True:\n    t.hideturtle()\n    t.clear()\n    t.write(str(hr).zfill(2)+\":\"\n    +str(min).zfill(2)+\":\"\n    +str(sec).zfill(2),\n    font =(\"Arial Narrow\", 35, \"bold\"))\n\n    sec = dt.datetime.now().second\n    min = dt.datetime.now().minute\n    hr = dt.datetime.now().hour",
+            "audio": ""
+        }
+    ]
+}

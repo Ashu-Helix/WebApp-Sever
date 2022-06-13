@@ -1,0 +1,19 @@
+{
+    "title": [
+        {
+            "params": {
+                "slug": "bunny"
+            }
+        },
+        {
+            "params": {
+                "slug": "trafficSignal"
+            }
+        },
+        {
+            "params": {
+                "slug": "bee"
+            }
+        }
+    ]
+}

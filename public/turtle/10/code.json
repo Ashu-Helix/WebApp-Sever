@@ -1,0 +1,30 @@
+{
+    "code": "import turtle\n\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\n\nwhile True:\n    t1.forward(50)\n    t1.right(9)\n    t1.backward(50)\n    t1.left(20)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut1",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Let&apos;s learn about patterns, we can mismatch some angles and come up with different and interesting patterns.</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()",
+            "audio": ""
+        },
+        {
+            "id": "tut2",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">We are going to use a while true loop in this case since we want this loop to keep on running</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nwhile True:",
+            "audio": ""
+        },
+        {
+            "id": "tut3",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Let&apos;s make our turtle move forward first and make it turn some degrees and return backwards</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nwhile True:\n   t1.",
+            "audio": ""
+        },
+        {
+            "id": "tut4",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Now let&apos;s make it tilt a little left by some degrees, and repeat these steps again and again. this will create an interesting pattern.</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nwhile True:\n   t1.forward(50)\n   t1.right(9)\n   t1.backward(50)",
+            "audio": ""
+        }
+    ]
+}

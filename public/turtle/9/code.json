@@ -1,0 +1,30 @@
+{
+    "code": "import turtle\n\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nfor i in range(4):\n    t1.forward(100)\n    t1.right(90)\n    \nt1.forward(100)\n\nfor i in range(3):\n    t1.forward(100)\n    t1.left(120)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut2",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Let&apos;s try drawing a square and rectangle without them intersecting with each other</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()",
+            "audio": ""
+        },
+        {
+            "id": "tut3",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">To draw a square we are going to loop the forward and right functions four times</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nfor i in range(4):",
+            "audio": ""
+        },
+        {
+            "id": "tut4",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Once Our Square has been drawn, we are moving our turtle forward by 100 pixels, so it&apos;s ready to draw our rectangle</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nfor i in range(4):\n   t1.forward(100)\n   t1.right(90)",
+            "audio": ""
+        },
+        {
+            "id": "tut5",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Now let&apos;s draw our triangle by looping through forward and left statements 3 times</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nfor i in range(4):\n   t1.forward(100)\n   t1.right(90)\n   \nt1.forward(100)\nfor i in range(3):",
+            "audio": ""
+        }
+    ]
+}

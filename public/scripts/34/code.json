@@ -1,0 +1,23 @@
+{
+    "code": "print(\"Hello World\")",
+    "guide": [
+        {
+            "id": "tip0",
+            "img": "tip0.png",
+            "code": "",
+            "audio": ""
+        },
+        {
+            "id": "tip1",
+            "img": "tip1.png",
+            "code": "print",
+            "audio": "line52.mp3"
+        },
+        {
+            "id": "tip2",
+            "img": "tip2_HelloWorld.png",
+            "code": "print(\"Hello World\")",
+            "audio": "line0.mp3"
+        }
+    ]
+}

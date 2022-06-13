@@ -1,0 +1,30 @@
+{
+    "code": "import turtle\ncolors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']\nt = turtle.Turtle()\n\nfor x in range(100):\n    t.pencolor(colors[x%6])\n    t.width(x//100 + 1)\n    t.forward(x)\n    t.left(59)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut1",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">In this lesson, we will build a pattern called the Rainbow Benzene</span></p>",
+            "code": "import turtle",
+            "audio": ""
+        },
+        {
+            "id": "tut2",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">We are going to draw a hexagon with multiple colours, just like we did in the last lesson</span></p>",
+            "code": "import turtle\ncolors = ",
+            "audio": ""
+        },
+        {
+            "id": "tut10",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Now let&rsquo;s draw a hexagon, which increases its width slowly. each time the width will increase by 0.01. &nbsp; * &nbsp; at first run, the width would be 1 &nbsp; * &nbsp;at second run, it would be 1.01 &nbsp;* &nbsp; at the third run, it would be 1.02and keep on increasing like that...</span></p>",
+            "code": "import turtle\ncolors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']\nt = turtle.Turtle()\n\nfor x in range(100):\n    t.pencolor(colors[x%6])\n    t.width",
+            "audio": ""
+        },
+        {
+            "id": "tut11",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Let&rsquo;s set the angle to 59 degrees, to get the pattern</span></p>",
+            "code": "import turtle\ncolors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']\nt = turtle.Turtle()\n\nfor x in range(100):\n    t.pencolor(colors[x%6])\n    t.width(x//100 + 1)\n    t.forward(x)\n    t.left(59)",
+            "audio": ""
+        }
+    ]
+}

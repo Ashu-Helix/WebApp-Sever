@@ -1,0 +1,24 @@
+{
+    "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nfor i in range(4):\nt1.forward(100)\nt1.right(90)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut2",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Looking back at the last lesson, we repeated only two functions to draw a square. the forward and right function. so now let&apos;s loop through those two functions</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()",
+            "audio": ""
+        },
+        {
+            "id": "tut3",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">You have learnt how to use for loops in last grade python exercises, we are going to use a for loop to loop through forward and right functions</span></p>\n  <p style='margin:0cm;font-size:16px;font-family:\"Calibri\";sans-serif;'>",
+            "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nfor i in range(4):",
+            "audio": ""
+        },
+        {
+            "id": "tut4",
+            "img": "<p><span style='font-size:24px;font-family:\"Calibri\";sans-serif;color:#BFBFBF;background:black;'>Our turtle will go forward and turn right four times, hence drawing our square.</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nfor i in range(4):\nt1.forward(100)\nt1.right(90)",
+            "audio": ""
+        }
+    ]
+}

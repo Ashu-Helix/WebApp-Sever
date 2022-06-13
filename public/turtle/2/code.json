@@ -1,0 +1,24 @@
+{
+    "code": "import turtle\n\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nt1.color('red')\n\nt2 = turtle.Turtle()\nt2.color('green')",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut6",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:'Calibri',sans-serif;'><span style='font-size: 20px; color: rgb(239, 239, 239); background-color: rgb(0, 0, 0);>We are creating a turtle object and setting its colour to </span><span style='font-size: 20px; color: rgb(226, 80, 65); background-color: rgb(0, 0, 0);'>red</span><span style='font-size: 20px; color: rgb(239, 239, 239); background-color: rgb(0, 0, 0);'>, you can see the turtle object in the output screen changing its colour when you run the code.</span></p>",
+            "code": "import turtle\n\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nt1.color('red')",
+            "audio": ""
+        },
+        {
+            "id": "tut7",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:'Calibri',sans-serif;'><span style='font-size: 20px; color: rgb(239, 239, 239); background-color: rgb(0, 0, 0);'>Now we are creating another turtle object named&nbsp;</span><span style='font-size: 20px; color: rgb(247, 218, 100); background-color: rgb(0, 0, 0);'>t2</span></p>",
+            "code": "import turtle\n\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nt1.color('red')\n\nt2 = turtle.Turtle()",
+            "audio": ""
+        },
+        {
+            "id": "tut8",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:'Calibri',sans-serif;'><span style='font-size: 20px; color: rgb(239, 239, 239); background-color: rgb(0, 0, 0);'>We are Setting the Colour of the Second turtle object to&nbsp;</span><span style='font-size: 20px; color: rgb(97, 189, 109); background-color: rgb(0, 0, 0);'>green</span><span style='font-size: 20px; color: rgb(239, 239, 239); background-color: rgb(0, 0, 0);'>. now the green arrow will lay on top of the red arrow making the red arrow disappear.</span></p>",
+            "code": "import turtle\n\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nt1.color('red')\n\nt2 = turtle.Turtle()\nt2.color('green')",
+            "audio": ""
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "code": "a = 9\nb = 6\nc = a + b\nprint(c)",
+    "guide": [
+        {
+            "id": "tip0",
+            "img": "intro_lets_add.png",
+            "code": "",
+            "audio": ""
+        },
+        {
+            "id": "tip1",
+            "img": "tip_1_number_value.png",
+            "code": "a",
+            "audio": "line6.mp3"
+        },
+        {
+            "id": "tip2",
+            "img": "tip_2_stored.png",
+            "code": "a = 9\nb = 6\nc",
+            "audio": "line10.mp3"
+        }
+    ]
+}

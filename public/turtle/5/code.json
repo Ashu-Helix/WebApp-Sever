@@ -1,0 +1,30 @@
+{
+    "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nt1.forward(100)\nt1.right(90)\nt1.forward(100)\nt1.right(90)\nt1.forward(100)\nt1.right(90)\nt1.forward(100)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut2",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\";sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">now let&apos,s try to draw a square using a turtle</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()",
+            "audio": ""
+        },
+        {
+            "id": "tut3",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\";sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">to draw the first quarter of the square, move the turtle forward and turn it right by 90 degrees</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nt1.",
+            "audio": ""
+        },
+        {
+            "id": "tut4",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\";sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Half of our square is drawn, now repeat the same steps to draw the other half</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nt1.forward(100)\nt1.right(90)\nt1.forward(100)\nt1.right(90)",
+            "audio": ""
+        },
+        {
+            "id": "tut5",
+            "img": "<p><span style='font-size:24px;font-family:\"Calibri\";sans-serif;color:#BFBFBF;background:black;'>Our Square has been drawn successfully now.</span></p>",
+            "code": "import turtle\nt1 = turtle.Turtle()\nt1.pencolor('white')\n\nt1.forward(100)\nt1.right(90)\nt1.forward(100)\nt1.right(90)\nt1.forward(100)\nt1.right(90)\nt1.forward(100)",
+            "audio": ""
+        }
+    ]
+}

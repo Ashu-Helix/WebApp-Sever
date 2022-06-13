@@ -1,0 +1,30 @@
+{
+    "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor(\"pink\")\n\nt1 = turtle.Turtle()\nt1.forward(100)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut5",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Every time you start working with the turtle, the first step will be to create our turtle window to work with. let&apos;s learn how to do that</span></p>",
+            "code": "import turtle",
+            "audio": ""
+        },
+        {
+            "id": "tut6",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Two things are done here : &nbsp;* &nbsp; we are creating a variable called wn to signify a window &nbsp;* &nbsp;we are going to call the Screen function in turtle to initialize a new screen</span></p>",
+            "code": "import turtle\nwn = turtle.Screen()",
+            "audio": ""
+        },
+        {
+            "id": "tut7",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Once we define a screen, we can modify it as we like. lets us try setting the background colour of the screen to pink using the bgcolour function</span></p>",
+            "code": "import turtle\nwn = turtle.Screen()\nwn.",
+            "audio": ""
+        },
+        {
+            "id": "tut8",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Create a new turtle object now, and move it forward</span></p>",
+            "code": "import turtle\nwn = turtle.Screen()\nwn.bgcolor(\"pink\")\nt1",
+            "audio": ""
+        }
+    ]
+}

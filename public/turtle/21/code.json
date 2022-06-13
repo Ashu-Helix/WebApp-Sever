@@ -1,0 +1,30 @@
+{
+    "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt = turtle.Turtle()\nt.circle(5)\n\nfor i in range(10):\n    t.circle(5*i)",
+    "type": 1,
+    "guide": [
+        {
+            "id": "tut21",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">You can also draw circles with the turtle by using the circle command.&nbsp;</span></p>",
+            "code": "import turtle\n wn = turtle.Screen()\nwn.bgcolor('white')\n\nt = turtle.Turtle()",
+            "audio": ""
+        },
+        {
+            "id": "tut22",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Inside the parentheses, you can give the radius of the circle that needs to be drawn.</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt = turtle.Turtle()\nt.circle(5)",
+            "audio": ""
+        },
+        {
+            "id": "tut23",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">Let&apos;s try and increase the size of the circle rapidly in a loop 10 times.</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt = turtle.Turtle()\nt.circle(5)\n\nfor i in range(10):",
+            "audio": ""
+        },
+        {
+            "id": "tut24",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">The loop variable i is multiplied by 5, so every time the loop runs, the radius of the circle increases by 5</span></p>\n       <p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"font-size:24px;color:#BFBFBF;background:black;\">the first time the radius would be 5, next it would be 10,15, 20, 25.... and the radius would keep increasing like that for 10 times</span></p>",
+            "code": "import turtle\n\nwn = turtle.Screen()\nwn.bgcolor('white')\n\nt = turtle.Turtle()\nt.circle(5)\n\nfor i in range(10):\n    t.circle(5*i)",
+            "audio": ""
+        }
+    ]
+}
