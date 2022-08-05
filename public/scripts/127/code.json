@@ -1,0 +1,16 @@
+{
+    "lesson": "127",
+    "type": 3,
+    "code": "print('Hello')\nprint('Hello')\nprint('Hello')\nprint('Hello')\nprint('Hello')",
+    "user_code": "print('Hello')\nprint('Hello')\nprint('Hello')\nprint('Hello')",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "\nthe same output can be produced using while loop\n",
+                "code": "print('Hello')\nprint('Hello')\nprint('Hello')\nprint('Hello')\nprint('Hello')",
+                "audio": "Py_Eng_Lesson_127_1.mp3"
+            }
+        ]
+    }
+}

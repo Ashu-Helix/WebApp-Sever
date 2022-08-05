@@ -1,0 +1,22 @@
+{
+    "lesson": "141",
+    "type": 3,
+    "code": "while(True):\n    print('hello')\n    break",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut15",
+                "img": "Checking for boolean condition",
+                "code": "while(True):",
+                "audio": "Py_Eng_Lesson_141_1.mp3"
+            },
+            {
+                "id": "tut16",
+                "img": "While(True) will be an infinite loop",
+                "code": "",
+                "audio": "Py_Eng_Lesson_141_2.mp3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "lesson": "181",
+    "type": 3,
+    "code": "a=['apple','banana','cherry']\nprint('list a is ',a)\nprint('Repeated list ' ,a*2)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut4",
+                "img": "List can be repeated any number of times using * operator",
+                "code": "a=['apple','banana','cherry']\nprint('list a is ',a)\nprint('Repeated list ' ,a*",
+                "audio": "Py_Eng_Lesson_181_1.mp3"
+            }
+        ]
+    }
+}

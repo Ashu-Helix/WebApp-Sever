@@ -1,0 +1,9 @@
+{ "QuestionArr": [{
+"id": 338,
+"question":"Else part will get executed if break is specified in for loop",
+"options":["True","False"],
+"correct_answer":"False",
+"correct_msg":"",
+"incorrect_msg":"If break is specified, else part will not get executed"
+}
+ ]}

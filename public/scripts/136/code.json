@@ -1,0 +1,16 @@
+{
+    "lesson": "136",
+    "type": 3,
+    "code": "i=1\nwhile i <= 5:\n    print('The loop has executed', i, 'times')\n    i += 1",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut11",
+                "img": "+= can also be used for incrementing i",
+                "code": "i=1\nwhile i <= 5:\n    print('The loop has executed', i, 'times')\n    i += 1",
+                "audio": "Py_Eng_Lesson_136_1.mp3"
+            }
+        ]
+    }
+}

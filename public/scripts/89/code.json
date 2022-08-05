@@ -1,0 +1,22 @@
+{
+    "lesson": "89",
+    "type": 3,
+    "code": "climate='Raining'\nprint('Can play outside') if climate=='Raining' else print('Do not play outside')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut10",
+                "img": "Shorthand\nIf",
+                "code": "",
+                "audio": "Py_Eng_Lesson_89_1.mp3"
+            },
+            {
+                "id": "tut11",
+                "img": "\n One print statement is there to\nexecute so IF condition and print statement can be written in single line and\nthis is called as short hand if. The first print statement is part of Else\nblock\n",
+                "code": "climate='Raining'\nprint('Can play outside') if climate=='Raining' else print('Do not play outside')",
+                "audio": "Py_Eng_Lesson_89_2.mp3"
+            }
+        ]
+    }
+}

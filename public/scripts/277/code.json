@@ -1,0 +1,16 @@
+{
+    "lesson": "277",
+    "type": 3,
+    "code": "txt=\"Hello And Welcome\"\nprint(txt.center(80))",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut5",
+                "img": "Center method will center align the string",
+                "code": "txt=\"Hello And Welcome\"\nprint(txt.center",
+                "audio": "Py_Eng_Lesson_277_1.mp3"
+            }
+        ]
+    }
+}

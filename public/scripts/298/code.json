@@ -1,0 +1,16 @@
+{
+    "lesson": "298",
+    "type": 3,
+    "code": "txt='   I am an indian       '\nprint(txt.strip())",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Removes or trims the spaces",
+                "code": "txt='   I am an indian       '\nprint(txt.strip())",
+                "audio": "Py_Eng_Lesson_298_1.mp3"
+            }
+        ]
+    }
+}

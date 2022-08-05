@@ -1,0 +1,16 @@
+{
+    "lesson": "50",
+    "type": 3,
+    "code": "if True>False:\n    print('condition is true')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut5",
+                "img": "\nLess\nthan or greater than condition will work because True takes a value of 1 and False\ntakes a value of 0 so numeric will work with comparison operators\n",
+                "code": "if True>False:",
+                "audio": "Py_Eng_Lesson_50_1.mp3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "lesson": "241",
+    "type": 3,
+    "code": "dictionary={'car1':'maruti',\n           'car2':'verna',\n           'car3':'innova'}\nprint(dictionary)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut6",
+                "img": "In dictionary, each element will have a key and value pair",
+                "code": "",
+                "audio": "Py_Eng_Lesson_241_1.mp3"
+            },
+            {
+                "id": "tut7",
+                "img": "car1 is the key",
+                "code": "dictionary={'car1'",
+                "audio": "Py_Eng_Lesson_241_2.mp3"
+            },
+            {
+                "id": "tut8",
+                "img": "maruti is the value",
+                "code": "dictionary={'car1':'maruti'",
+                "audio": "Py_Eng_Lesson_241_3.mp3"
+            },
+            {
+                "id": "tut9",
+                "img": "Dictionaries are created using {} brackets",
+                "code": "dictionary={'car1':'maruti',\n           'car2':'verna',\n           'car3':'innova'}",
+                "audio": "Py_Eng_Lesson_241_4.mp3"
+            }
+        ]
+    }
+}

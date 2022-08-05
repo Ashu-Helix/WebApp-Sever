@@ -1,0 +1,34 @@
+{
+    "lesson": "33",
+    "type": 3,
+    "code": "climate='Raining'\nif climate=='Raining':\n    print('Do not play outside')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "\n\nConditional statements are handled by IF statements \nExamples:IF you study well, you will get good marksIF you get good marks, you will get a gift\nIF you eat healthy food, you will be strong\n",
+                "code": "",
+                "audio": "Py_Eng_Lesson_33_1.mp3"
+            },
+            {
+                "id": "tut2",
+                "img": "\nIf\nstatement is used for decision making ",
+                "code": "climate='Raining'\nif",
+                "audio": "Py_Eng_Lesson_33_2.mp3"
+            },
+            {
+                "id": "tut3",
+                "img": "\n\nBased\non the climate, decide whether to play outside or not",
+                "code": "climate='Raining'\nif climate=='Raining':",
+                "audio": "Py_Eng_Lesson_33_3.mp3"
+            },
+            {
+                "id": "tut4",
+                "img": "\n\n\nIf its Raining, do not play outside. Here the condition is\nTrue so body will be executed",
+                "code": "climate='Raining'\nif climate=='Raining':\n    print('Do not play outside')",
+                "audio": "Py_Eng_Lesson_33_4.mp3"
+            }
+        ]
+    }
+}

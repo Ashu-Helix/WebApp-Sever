@@ -1,0 +1,46 @@
+{
+    "lesson": "22",
+    "type": 3,
+    "code": "x = float(1)\ny = float(2.8)\nz = float(\"3\")\nw = float(\"4.2\")\nprint(x,y,z,w)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Let's learn to type cast data into floating point numbers",
+                "code": "",
+                "audio": "Py_Eng_Lesson_22_1.mp3"
+            },
+            {
+                "id": "tut21",
+                "img": "x will be 1.0",
+                "code": "x = float",
+                "audio": "Py_Eng_Lesson_22_2.mp3"
+            },
+            {
+                "id": "tut31",
+                "img": "y will be 2.8",
+                "code": "x = float(1)\ny = float",
+                "audio": "Py_Eng_Lesson_22_3.mp3"
+            },
+            {
+                "id": "tut41",
+                "img": "z will be 3.0",
+                "code": "x = float(1)\ny = float(2.8)\nz = float",
+                "audio": "Py_Eng_Lesson_22_4.mp3"
+            },
+            {
+                "id": "tut2",
+                "img": "w will be 4.2",
+                "code": "x = float(1)\ny = float(2.8)\nz = float(\"3\")\nw = float",
+                "audio": "Py_Eng_Lesson_22_5.mp3"
+            },
+            {
+                "id": "tut3",
+                "img": "since integer and string gets converted into float data type",
+                "code": "x = float(1)\ny = float(2.8)\nz = float(\"3\")\nw = float(\"4.2\")\nprint",
+                "audio": "Py_Eng_Lesson_22_6.mp3"
+            }
+        ]
+    }
+}

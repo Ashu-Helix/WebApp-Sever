@@ -1,0 +1,16 @@
+{
+    "lesson": "133",
+    "type": 3,
+    "code": "i=0\nwhile i<5:\n    print(i, 'is  less than 5')\n    i=i+1\nelse:\n    print(i, 'is not less than 5')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut4",
+                "img": "\nWhen while test condition\nis false, else part will be executed",
+                "code": "i=0\nwhile i<5:\n    print(i, 'is  less than 5')\n    i=i+1\nelse:",
+                "audio": "Py_Eng_Lesson_133_1.mp3"
+            }
+        ]
+    }
+}

@@ -1,21 +1,21 @@
 {
-    "code": "import turtle\nimport datetime as dt\n\nwn = turtle.Screen()\nwn.bgcolor(\"white\")\n\nt = turtle.Turtle()\nt.goto(0,10)\n\nhr = dt.datetime.now().hour\nmn = dt.datetime.now().minute\nsec = dt.datetime.now().second\n\nwhile True:\n    t.hideturtle()\n    t.clear()\n    t.write(str(hr).zfill(2)+\":\"\n    +str(min).zfill(2)+\":\"\n    +str(sec).zfill(2),\n    font =(\"Arial Narrow\", 35, \"bold\"))\n\n    sec = dt.datetime.now().second\n    min = dt.datetime.now().minute\n    hr = dt.datetime.now().hour",
+    "code": "import turtle\nimport datetime as dt\n\nwn = turtle.Screen()\nwn.bgcolor(\"white\")\n\nt = turtle.Turtle()\nt.goto(0,10)\n\nhr = dt.datetime.now().hour\nmn = dt.datetime.now().minute\nsec = dt.datetime.now().second\n\nwhile True:\n    t.hideturtle()\n    t.clear()\n    t.write(str(hr).zfill(2)+\":\"\n    +str(mn).zfill(2)+\":\"\n    +str(sec).zfill(2),\n    font =(\"Arial Narrow\", 35, \"bold\"))\n\n    sec = dt.datetime.now().second\n    mn = dt.datetime.now().minute\n    hr = dt.datetime.now().hour",
     "type": 1,
     "guide": [
         {
             "id": "tut1",
-            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0), font-size: 22px;\">In this lesson, you will learn to keep updating the time given on the screen</span></p>\n",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239); background-color: rgb(0, 0, 0);  font-size: 22px;\">In this lesson, you will learn to keep updating the time given on the screen</span></p>\n",
             "code": ""
         },
         {
             "id": "tut2",
-            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0), font-size: 22px;\">Let&rsquo;s create a while loop, where we keep updating the time. Use the clear function to clear the screen so that the time does not get over-written on top of the other</span></p>\n",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239); background-color: rgb(0, 0, 0);  font-size: 22px;\">Let&rsquo;s create a while loop, where we keep updating the time. Use the clear function to clear the screen so that the time does not get over-written on top of the other</span></p>\n",
             "code": "import turtle\nimport datetime as dt\n\nwn = turtle.Screen()\nwn.bgcolor(\"white\")\n\nt = turtle.Turtle()\nt.goto(0,10)\n\nhr = dt.datetime.now().hour\nmn = dt.datetime.now().minute\nsec = dt.datetime.now().second\n\nwhile True:\n    t.hideturtle()\n    t.clear()",
             "audio": ""
         },
         {
             "id": "tut3",
-            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239), background-color: rgb(0, 0, 0), font-size: 22px;\">Now call the hour, minute and second from the DateTime function so that it will run every time the loop is running, thereby updating it continuously</span></p>\n",
+            "img": "<p style='margin:0cm;font-size:16px;font-family:\"Calibri\",sans-serif;'><span style=\"color: rgb(239, 239, 239); background-color: rgb(0, 0, 0);  font-size: 22px;\">Now call the hour, minute and second from the DateTime function so that it will run every time the loop is running, thereby updating it continuously</span></p>\n",
             "code": "import turtle\nimport datetime as dt\n\nwn = turtle.Screen()\nwn.bgcolor(\"white\")\n\nt = turtle.Turtle()\nt.goto(0,10)\n\nhr = dt.datetime.now().hour\nmn = dt.datetime.now().minute\nsec = dt.datetime.now().second\n\nwhile True:\n    t.hideturtle()\n    t.clear()\n    t.write(str(hr).zfill(2)+\":\"\n    +str(min).zfill(2)+\":\"\n    +str(sec).zfill(2),\n    font =(\"Arial Narrow\", 35, \"bold\"))\n\n    sec",
             "audio": ""
         }

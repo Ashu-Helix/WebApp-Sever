@@ -1,0 +1,15 @@
+{
+    "QuestionArr": [
+        {
+            "id": 310,
+            "question": "Can lists read through numeric data types?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correct_answer": "Yes",
+            "correct_msg": "",
+            "incorrect_msg": "For loop is used to read through a list or tuple or set or dictionary or string"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "lesson": "73",
+    "type": 3,
+    "code": "money=30\nif money==30:\n    print('I have Rs.30 so I cannot buy the toy')\nelse:\t\n    print('I can buy a toy')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut2",
+                "img": "\nIF Else conditions with numbers\n",
+                "code": "money=30\nif money==30:",
+                "audio": "Py_Eng_Lesson_73_1.mp3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "lesson": "1",
+    "type": 4,
+    "code": "print(\"Hello World\")",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut31",
+                "img": "Today we learn to use Print",
+                "code": "",
+                "audio": "Py_Eng_Lesson_1_1.mp3"
+            },
+            {
+                "id": "tut1",
+                "img": "The print function prints the specified message to the screen",
+                "code": "print",
+                "audio": "Py_Eng_Lesson_1_2.mp3"
+            },
+            {
+                "id": "tut21",
+                "img": "Hello world is the message within \" double quotes",
+                "code": "print(\"Hello World\")",
+                "audio": "English1.mp3"
+            }
+        ],
+        "Hindi": [
+            {
+                "id": "tut31",
+                "img": "आज हम Print का उपयोग करना सीखते हैं",
+                "code": "",
+                "audio": "hindi-1.mp3"
+            },
+            {
+                "id": "tut1",
+                "img": "Print फ़ंक्शन निर्दिष्ट संदेश को स्क्रीन पर प्रिंट करता है",
+                "code": "print",
+                "audio": "hindi-2.mp3"
+            },
+            {
+                "id": "tut21",
+                "img": "Hello World \" के भीतर संदेश है double उद्धरण",
+                "code": "print(\"Hello World\")",
+                "audio": "hindi-3.mp3"
+            }
+        ],
+        "Marathi": [
+            {
+                "id": "tut31",
+                "img": "आज आपण Print वापरायला शिकलो",
+                "code": "",
+                "audio": "marathi-1.mp3"
+            },
+            {
+                "id": "tut1",
+                "img": "Print फंक्शन निर्दिष्ट संदेश स्क्रीनवर मुद्रित करते",
+                "code": "print",
+                "audio": "marathi-2.mp3"
+            },
+            {
+                "id": "tut21",
+                "img": "Hello Work हा \" डबल कोट्स मधील संदेश आहे",
+                "code": "print(\"Hello World\")",
+                "audio": "marathi-3.mp3"
+            }
+        ]
+    }
+}

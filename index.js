@@ -12,6 +12,7 @@ app.use("/blocks", express.static("public/blocks"));
 app.use("/scripts", express.static("public/scripts"));
 app.use("/game", express.static("public/game"));
 app.use("/liveLessons", express.static("public/liveLessons"));
+app.use("/QuizTesting", express.static("public/QuizTesting"))
 
 
 
@@ -43,6 +44,8 @@ app.get("/code", (req, res) => {
 
 //turtle
 app.use("/turtle", express.static("public/turtle"));
+app.use("/turtlePredictive", express.static("public/_Turtle/Turtle_Predictive"));
+app.use("/pythonOpenEditor", express.static("public/_Turtle/Python_Open_Editor"));
 
 app.use(express.json());
 //app.use(bodyParser.json());

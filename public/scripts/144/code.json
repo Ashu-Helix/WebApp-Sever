@@ -1,0 +1,16 @@
+{
+    "lesson": "144",
+    "type": 3,
+    "code": "while(False):\n    print('hello')\n    break\nprint('This loop will never gets executed')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut17",
+                "img": "while(False) will always be false unless it is set to True",
+                "code": "while(False):",
+                "audio": "Py_Eng_Lesson_144_1.mp3"
+            }
+        ]
+    }
+}

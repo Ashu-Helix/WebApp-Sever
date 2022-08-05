@@ -1,0 +1,22 @@
+{
+    "lesson": "193",
+    "type": 3,
+    "code": "a=('red','blue','green')\nprint(a)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut5",
+                "img": "Tuples\nTuples can also contain set of elements",
+                "code": "",
+                "audio": "Py_Eng_Lesson_193_1.mp3"
+            },
+            {
+                "id": "tut6",
+                "img": "Tuple should start and end with () brackets",
+                "code": "a=('red','blue','green')",
+                "audio": "Py_Eng_Lesson_193_2.mp3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "lesson": "230",
+    "type": 3,
+    "code": "set1={\"Note\",\"book\",\"pencil\"}\nprint(set1)\nset1.clear()\nprint(set1)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut6",
+                "img": "Clear will delete all elements from the list",
+                "code": "set1={\"Note\",\"book\",\"pencil\"}\nprint(set1)\nset1.clear()",
+                "audio": "Py_Eng_Lesson_230_1.mp3"
+            }
+        ]
+    }
+}

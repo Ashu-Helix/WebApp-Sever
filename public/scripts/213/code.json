@@ -1,0 +1,22 @@
+{
+    "lesson": "213",
+    "type": 3,
+    "code": "a={'red','blue','green'}\nprint(a)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Set will contain a set of elements",
+                "code": "",
+                "audio": "Py_Eng_Lesson_213_1.mp3"
+            },
+            {
+                "id": "tut2",
+                "img": "Set should start and end with {} brackets",
+                "code": "a={",
+                "audio": "Py_Eng_Lesson_213_2.mp3"
+            }
+        ]
+    }
+}

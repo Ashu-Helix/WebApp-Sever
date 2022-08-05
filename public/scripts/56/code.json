@@ -1,0 +1,16 @@
+{
+    "lesson": "56",
+    "type": 3,
+    "code": "climate='Raining'\nif climate=='Raining': print('Do not play outside')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut17",
+                "img": "\n\n\n\nHere there is only one print statement to\nexecute so IF condition and print statement can be written in single line and\nthis is called as short hand if\n\n",
+                "code": "climate='Raining'\nif climate=='Raining': print('Do not play outside')",
+                "audio": "Py_Eng_Lesson_56_1.mp3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "lesson": "238",
+    "type": 3,
+    "code": "x={'apple','banana','cherry'}\ny={'google','microsoft','apple'}\nz=x.symmetric_difference(y)\nprint(z)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut5",
+                "img": "Symmetric difference will get the elements which are not common in both sets",
+                "code": "x={'apple','banana','cherry'}\ny={'google','microsoft','apple'}\nz=x.symmetric_difference",
+                "audio": "Py_Eng_Lesson_238_1.mp3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "lesson": "153",
+    "type": 3,
+    "code": "n = 0.1\nwhile n < 0.5:\n    n = n + 0.1\n    print('value of n is',n)\n    if n == 0.4:\n        break",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut5",
+                "img": "Break is applied when value of n is 0.4 in this lesson",
+                "code": "n = 0.1\nwhile n < 0.5:\n    n = n + 0.1\n    print('value of n is',n)\n    if n == 0.4:\n        break",
+                "audio": "Py_Eng_Lesson_153_1.mp3"
+            }
+        ]
+    }
+}

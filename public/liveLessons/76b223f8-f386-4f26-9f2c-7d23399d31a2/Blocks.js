@@ -4,7 +4,14 @@ import "blockly/javascript";
 
 Blockly.HSV_SATURATION = 1;
 Blockly.HSV_VALUE = 1;
-
+import {
+    update,
+    preload,
+    create,
+    gameHeight,
+    gameWidth,
+    repeat_forever_flag
+} from "./main"
 Blockly.Blocks['pointertouch__block'] = {
     init: function () {
         this.appendDummyInput()
@@ -108,15 +115,19 @@ Blockly.JavaScript['forever_repeat_block'] = function (block) {
    }}`
     if (repeat_forever_flag) {
         eval(code);
-        game.destroy();
-        document.getElementById('circle').innerHTML = "";
+        window['game'].destroy();
+        document.getElementById('sprite-container').innerHTML = "";
         setTimeout(() => {
-            config = {
+            let config = {
                 type: Phaser.AUTO,
                 width: gameWidth,
                 height: gameHeight,
                 backgroundColor: "#eeeeee",
-                parent: "circle",
+                parent: "sprite-container",
+                //canvas: canvas1,
+                canvasStyle: `width: 100%;
+                object-fit: revert;
+                aspect-ratio: 738 / 436;`,
                 physics: {
                     default: "arcade",
                     arcade: {
@@ -130,7 +141,7 @@ Blockly.JavaScript['forever_repeat_block'] = function (block) {
                     update: update,
                 },
             };
-            game = new Phaser.Game(config);
+            window['game'] = new Phaser.Game(config);
         }, 100);
 
     }

@@ -1,0 +1,22 @@
+{
+    "lesson": "109",
+    "type": 3,
+    "code": "num1 = int(input('Enter a number'))\nnum2 = int(input('Enter another number'))\nprint(num1 + num2)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Converting string to integer",
+                "code": "num1 = int",
+                "audio": "Py_Eng_Lesson_109_1.mp3"
+            },
+            {
+                "id": "tut2",
+                "img": "\nWorking with multiple variables",
+                "code": "num1 = int(input('Enter a number'))\nnum2 = int(input('Enter another number'))\nprint(num1 + num2)",
+                "audio": "Py_Eng_Lesson_109_2.mp3"
+            }
+        ]
+    }
+}

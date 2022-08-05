@@ -1,11 +1,4 @@
-// import M from 'materialize-css';
-// import {
-//     AUTO,
-//     Game,
-// } from 'phaser';
-
-// import MSPhaserLib from '../msPhaserLib.min';
-
+import M from 'materialize-css';
 import Blockly from "blockly";
 import "blockly/python";
 import "blockly/javascript";
@@ -17,7 +10,7 @@ let noOfBlocks;
 
 
 let _gameThis = null;
-const baseURL = "assets";
+const baseURL = "../img";
 const gameWidth = 1920;
 const gameHeight = 1080;
 const gameScale = 1;
@@ -56,8 +49,11 @@ let canHideRocket = false;
 let canBlastRocket = false;
 let canEndAll = false;
 let isGameOver = false;
+window['isGameOver'] = isGameOver;
 let touchedComet = null;
+window['touchedComet'] = touchedComet;
 let isRocketHitComet = false;
+window['isRocketHitComet'] = false
 
 // Phaser config
 let config = {
@@ -65,7 +61,11 @@ let config = {
     width: gameWidth,
     height: gameHeight,
     backgroundColor: "#eeeeee",
-    parent: "circle",
+    parent: "sprite-container",
+    //canvas: canvas1,
+    canvasStyle: `width: 100%;
+    object-fit: revert;
+    aspect-ratio: 738 / 436;`,
     physics: {
         default: "arcade",
         arcade: {
@@ -81,7 +81,7 @@ let config = {
 };
 
 // Initialize Phaser with config
-let game = new Phaser.Game(config);
+window['game'] = new Phaser.Game(config);
 
 // Phaser preload function
 function preload() {
@@ -146,6 +146,7 @@ function win_game() {
     let elementValue = spritesElement[elementName];
 
     isGameOver = true;
+    window['isGameOver'] = true;
     oTarget.setVelocityX(0);
     oTarget.setVelocityY(0);
     _oMSPhaserLib.stopSpriteAt(oTarget, elementName, elementValue.stayAt);
@@ -192,6 +193,7 @@ function setCollision() {
     _gameThis.physics.add.overlap(rocket, slowComet, onRocketHitComet, null, _gameThis);
     _gameThis.physics.add.overlap(rocket, fastComet1, onRocketHitComet, null, _gameThis);
     _gameThis.physics.add.overlap(rocket, fastComet2, onRocketHitComet, null, _gameThis);
+
     // _gameThis.physics.add.overlap(rocket, slowComet, blastRocket, null, _gameThis);
     // _gameThis.physics.add.overlap(rocket, fastComet1, blastRocket, null, _gameThis);
     // _gameThis.physics.add.overlap(rocket, fastComet2, blastRocket, null, _gameThis);
@@ -199,6 +201,7 @@ function setCollision() {
 
 function onRocketHitComet() {
     isRocketHitComet = true;
+    window['isRocketHitComet'] = true;
 }
 
 // Blast Rocket
@@ -207,6 +210,7 @@ function blastRocket(rocket, comet) {
     if (!isGameOver) {
         let rocket = _gameThis[GAME_CONSTANT.spritesImages.rocket];
         isGameOver = true;
+        window['isGameOver'] = true;
         // if (canBlastRocket) {
         let elementName = GAME_CONSTANT.spritesImages.explosion;
         let oTarget = _gameThis[elementName];
@@ -217,7 +221,6 @@ function blastRocket(rocket, comet) {
         oTarget.scale = elementValue.scale;
         oTarget.visible = true;
         _oMSPhaserLib.spriteAnimation(oTarget, elementName, elementValue.frameFrom, elementValue.frameTo, elementValue.frameRate, 0);
-        // }
 
         rocket.destroy();
         M.toast({ html: INCORRECT_MESSAGE });
@@ -225,15 +228,6 @@ function blastRocket(rocket, comet) {
     // comet.destroy();
 }
 
-// Add event to hide Rocket
-function addEventToHideRocket() {
-    canHideRocket = true;
-}
-
-// Add event to blast Rocket
-function addEventToBlastRocket() {
-    canBlastRocket = true;
-}
 
 // Fly rocket
 function flyRocket() {
@@ -288,18 +282,25 @@ function animateComet(elementName) {
 
 function reset_looper() {
     touchedComet = null;
+    window['touchedComet'] = null;
     isRocketHitComet = false;
+    window['isRocketHitComet'] = false;
 }
 
 // Clicked on comet
 function onClickComet() {
     touchedComet = this;
+    window['touchedComet'] = this;
 }
 
 // Remove comet
 function hideComet() {
+
     // canHideComet && this.destroy();
-    (touchedComet != null) && touchedComet.destroy();
+    //(touchedComet != null) && touchedComet.destroy();
+    (window['touchedComet'] != null) && window['touchedComet'].destroy();
+
+
 }
 
 // Add event to hide comet
@@ -325,8 +326,11 @@ function reInitValues() {
     canBlastRocket = false;
     canEndAll = false;
     isGameOver = false;
+    window['isGameOver'] = false
     touchedComet = null;
+    window['touchedComet'] = null;
     isRocketHitComet = false;
+    window['isRocketHitComet'] = false;
 }
 
 // Reset the game
@@ -341,7 +345,7 @@ function completedFlag() {
 var repeat_forever_flag = true;
 
 function runCode() {
-    tour_over && tour.complete();
+    // tour_over && tour.complete();
     reInitValues();
     init();
     window.LoopTrap = 1E3;
@@ -357,20 +361,22 @@ function runCode() {
             repeat_forever_flag = true;
         }, 1000);
     } catch (b) { alert(b) }
-    try {
-        if (tour.getCurrentStep().options.title.includes("Run")) {
-            let btns = document.querySelectorAll('.shepherd-button');
-            btns[btns.length - 1].click();
-        }
-    } catch { }
+    // try {
+    //     if (tour.getCurrentStep().options.title.includes("Run")) {
+    //         let btns = document.querySelectorAll('.shepherd-button');
+    //         btns[btns.length - 1].click();
+    //     }
+    // } catch { }
 }
 
-function helpCode() {
-    var xml_wkspace = '<xml xmlns="https://developers.google.com/blockly/xml"><block type="forever_repeat_block" id="sJqcU9xT8$WLGjjE[wI:" x="37" y="43"><statement name="NAME"><block type="controls_if" id="~)M/SMWWN9njnuZ|v96l"><value name="IF0"><block type="pointertouch__block" id="QBUO}SdI!6CN(1AVjw65"><field name="options2">meteorite</field></block></value><statement name="DO0"><block type="hide_block" id="WY16/.B[k{9gW]K$4-l,"><field name="NAME">meteorite</field></block></statement><next><block type="controls_if" id="uZLPE|u%DUq%N`4=[CJV"><value name="IF0"><block type="spritetouch__block" id="*;}~SEfavxXk=r?4R^D6"><field name="options1">rocket</field><field name="options2">meteorite</field></block></value><statement name="DO0"><block type="action_block" id="90py`[I[EV9DdDK;MQfd"></block></statement><next><block type="controls_if" id="Co0:Uk,whPB7**/K*B$9"><value name="IF0"><block type="spritetouch__block" id="F2z$nb:UjV40dGG0(]^}"><field name="options1">rocket</field><field name="options2">planet</field></block></value><statement name="DO0"><block type="end_block" id="=%:SuhDej[r%[rEJI?3@"></block></statement></block></next></block></next></block></statement></block></xml>';
-    var xml = Blockly.Xml.textToDom(xml_wkspace);
-    demoWorkspace.clear();
-    Blockly.Xml.domToWorkspace(xml, demoWorkspace);
-}
+// function helpCode() {
+//     var xml_wkspace = '<xml xmlns="https://developers.google.com/blockly/xml"><block type="forever_repeat_block" id="sJqcU9xT8$WLGjjE[wI:" x="37" y="43"><statement name="NAME"><block type="controls_if" id="~)M/SMWWN9njnuZ|v96l"><value name="IF0"><block type="pointertouch__block" id="QBUO}SdI!6CN(1AVjw65"><field name="options2">meteorite</field></block></value><statement name="DO0"><block type="hide_block" id="WY16/.B[k{9gW]K$4-l,"><field name="NAME">meteorite</field></block></statement><next><block type="controls_if" id="uZLPE|u%DUq%N`4=[CJV"><value name="IF0"><block type="spritetouch__block" id="*;}~SEfavxXk=r?4R^D6"><field name="options1">rocket</field><field name="options2">meteorite</field></block></value><statement name="DO0"><block type="action_block" id="90py`[I[EV9DdDK;MQfd"></block></statement><next><block type="controls_if" id="Co0:Uk,whPB7**/K*B$9"><value name="IF0"><block type="spritetouch__block" id="F2z$nb:UjV40dGG0(]^}"><field name="options1">rocket</field><field name="options2">planet</field></block></value><statement name="DO0"><block type="end_block" id="=%:SuhDej[r%[rEJI?3@"></block></statement></block></next></block></next></block></statement></block></xml>';
+//     var xml = Blockly.Xml.textToDom(xml_wkspace);
+//     demoWorkspace.clear();
+//     Blockly.Xml.domToWorkspace(xml, demoWorkspace);
+// }
+
+// const helpCode = '<xml xmlns="https://developers.google.com/blockly/xml"><block type="forever_repeat_block" id="sJqcU9xT8$WLGjjE[wI:" x="37" y="43"><statement name="NAME"><block type="controls_if" id="~)M/SMWWN9njnuZ|v96l"><value name="IF0"><block type="pointertouch__block" id="QBUO}SdI!6CN(1AVjw65"><field name="options2">meteorite</field></block></value><statement name="DO0"><block type="hide_block" id="WY16/.B[k{9gW]K$4-l,"><field name="NAME">meteorite</field></block></statement><next><block type="controls_if" id="uZLPE|u%DUq%N`4=[CJV"><value name="IF0"><block type="spritetouch__block" id="*;}~SEfavxXk=r?4R^D6"><field name="options1">rocket</field><field name="options2">meteorite</field></block></value><statement name="DO0"><block type="action_block" id="90py`[I[EV9DdDK;MQfd"></block></statement><next><block type="controls_if" id="Co0:Uk,whPB7**/K*B$9"><value name="IF0"><block type="spritetouch__block" id="F2z$nb:UjV40dGG0(]^}"><field name="options1">rocket</field><field name="options2">planet</field></block></value><statement name="DO0"><block type="end_block" id="=%:SuhDej[r%[rEJI?3@"></block></statement></block></next></block></next></block></statement></block></xml>';
 
 function myUpdateFunction(a) {
     var code = Blockly.Python.workspaceToCode(demoWorkspace);
@@ -378,7 +384,7 @@ function myUpdateFunction(a) {
     document.getElementById('pycode').innerHTML = import_statement + code;
     document.getElementById('modal1').innerHTML = import_statement + code;
 }
-demoWorkspace.addChangeListener(myUpdateFunction);
+// demoWorkspace.addChangeListener(myUpdateFunction);
 
 function getNoOfBlocks() {
     demoWorkspace = Blockly.getMainWorkspace();
@@ -388,24 +394,72 @@ function getNoOfBlocks() {
 
 const updateImports = ["from space_story import *"]
 
+const instruction = {
+    "heading": "Help Reach the rocket to the planet and destroy the meteorite by touching them before they hit the rocket",
+    "steps": [
+        {
+            "checkbox": true,
+            "rescue": true,
+            "text": "The following statements should function within the loop",
+            "title": "Repeat forever",
+            "workspace": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"forever_repeat_block\" id=\"sJqcU9xT8$WLGjjE[wI:\" x=\"37\" y=\"43\"></block></xml>"
+        },
+        {
+            "checkbox": true,
+            "rescue": true,
+            "text": "If I touch Meteorite, Hide Metiorite",
+            "title": "Destroy Meteorite",
+            "workspace": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"forever_repeat_block\" id=\"sJqcU9xT8$WLGjjE[wI:\" x=\"37\" y=\"43\"><statement name=\"NAME\"><block type=\"controls_if\" id=\"~)M/SMWWN9njnuZ|v96l\"><value name=\"IF0\"><block type=\"pointertouch__block\" id=\"QBUO}SdI!6CN(1AVjw65\"><field name=\"options2\">meteorite</field></block></value><statement name=\"DO0\"><block type=\"hide_block\" id=\"WY16/.B[k{9gW]K$4-l,\"><field name=\"NAME\">meteorite</field></block></statement></block></statement></block></xml>"
+        },
+        {
+            "checkbox": true,
+            "rescue": true,
+            "text": "If Rocket touches meteorite, Rocket Blasts",
+            "title": "Destroy Rocket",
+            "workspace": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"forever_repeat_block\" id=\"sJqcU9xT8$WLGjjE[wI:\" x=\"37\" y=\"43\"><statement name=\"NAME\"><block type=\"controls_if\" id=\"~)M/SMWWN9njnuZ|v96l\"><value name=\"IF0\"><block type=\"pointertouch__block\" id=\"QBUO}SdI!6CN(1AVjw65\"><field name=\"options2\">meteorite</field></block></value><statement name=\"DO0\"><block type=\"hide_block\" id=\"WY16/.B[k{9gW]K$4-l,\"><field name=\"NAME\">meteorite</field></block></statement><next><block type=\"controls_if\" id=\"uZLPE|u%DUq%N`4=[CJV\"><value name=\"IF0\"><block type=\"spritetouch__block\" id=\"*;}~SEfavxXk=r?4R^D6\"><field name=\"options1\">rocket</field><field name=\"options2\">meteorite</field></block></value><statement name=\"DO0\"><block type=\"action_block\" id=\"90py`[I[EV9DdDK;MQfd\"></block></statement></block></next></block></statement></block></xml>"
+        },
+        {
+            "checkbox": true,
+            "rescue": true,
+            "text": "If Rocket touches the Planet, win Game",
+            "title": "Win Game",
+            "workspace": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"forever_repeat_block\" id=\"sJqcU9xT8$WLGjjE[wI:\" x=\"37\" y=\"43\"><statement name=\"NAME\"><block type=\"controls_if\" id=\"~)M/SMWWN9njnuZ|v96l\"><value name=\"IF0\"><block type=\"pointertouch__block\" id=\"QBUO}SdI!6CN(1AVjw65\"><field name=\"options2\">meteorite</field></block></value><statement name=\"DO0\"><block type=\"hide_block\" id=\"WY16/.B[k{9gW]K$4-l,\"><field name=\"NAME\">meteorite</field></block></statement><next><block type=\"controls_if\" id=\"uZLPE|u%DUq%N`4=[CJV\"><value name=\"IF0\"><block type=\"spritetouch__block\" id=\"*;}~SEfavxXk=r?4R^D6\"><field name=\"options1\">rocket</field><field name=\"options2\">meteorite</field></block></value><statement name=\"DO0\"><block type=\"action_block\" id=\"90py`[I[EV9DdDK;MQfd\"></block></statement><next><block type=\"controls_if\" id=\"Co0:Uk,whPB7**/K*B$9\"><value name=\"IF0\"><block type=\"spritetouch__block\" id=\"F2z$nb:UjV40dGG0(]^}\"><field name=\"options1\">rocket</field><field name=\"options2\">planet</field></block></value><statement name=\"DO0\"><block type=\"end_block\" id=\"=%:SuhDej[r%[rEJI?3@\"></block></statement></block></next></block></next></block></statement></block></xml>"
+        },
+        {
+            "checkbox": false,
+            "rescue": false,
+            "text": "Touch the flying meteors to destroy them and protect the rocket until it safely reaches the planet.",
+            "title": "Instructions to play the game",
+            "workspace": "<xml xmlns=\"https://developers.google.com/blockly/xml\"></xml>"
+        }
+    ]
+};
+
 
 export {
     completedFlag,
-    myUpdateFunction,
-    helpCode,
+    // myUpdateFunction,
+    // helpCode,
+    instruction,
     runCode,
     reset_output,
     reInitValues,
-    isGameOver,
+    onRocketHitComet,
     reset_looper,
-    meteorite,
-    touchedComet,
+    // meteorite,
+    // touchedComet,
     blastRocket,
     hideComet,
-    rocket,
-    isRocketHitComet,
+    //  isRocketHitComet,
     rocket_touches_planet,
     win_game,
     getNoOfBlocks,
-    updateImports
+    updateImports,
+    repeat_forever_flag,
+    update,
+    hideRocket,
+    preload,
+    create,
+    gameHeight,
+    gameWidth,
 }

@@ -1,0 +1,16 @@
+{
+    "lesson": "288",
+    "type": 3,
+    "code": "txt='hello world'\nprint(txt.islower())",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut12",
+                "img": "Checks if string contains only lower case alphabets",
+                "code": "txt='hello world'\nprint(txt.islower())",
+                "audio": "Py_Eng_Lesson_288_1.mp3"
+            }
+        ]
+    }
+}

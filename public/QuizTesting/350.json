@@ -1,0 +1,9 @@
+{ "QuestionArr": [{
+"id": 350,
+"question":"Range(2,20,4). What does the number 4 refers to?",
+"options":["Start range","Skip size"],
+"correct_answer":"False",
+"correct_msg":"",
+"incorrect_msg":"Start range here is 2"
+}
+ ]}

@@ -1,0 +1,16 @@
+{
+    "lesson": "62",
+    "type": 3,
+    "code": "a=1\nb=5\nc=4\nif not(a>b):\n    print('a is not greater than b or c')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut24",
+                "img": "If a>b then 'not' will reverse the result so a should not be greater than b",
+                "code": "a=1\nb=5\nc=4\nif not(a>b)",
+                "audio": "Py_Eng_Lesson_62_1.mp3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "lesson": "292",
+    "type": 3,
+    "code": "txt=' '\nprint(txt.isspace())",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut14",
+                "img": "Checks if string contains only spaces",
+                "code": "txt=' '\nprint(txt.isspace())",
+                "audio": "Py_Eng_Lesson_292_1.mp3"
+            }
+        ]
+    }
+}

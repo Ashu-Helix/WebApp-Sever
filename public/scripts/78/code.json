@@ -1,0 +1,4 @@
+{
+    "type": 5,
+    "code": "#Edit code and try anything on Conditions!\nmoney=45\nif money!=50:\n    print('cost of toy is Rs.50 but  I have Rs.45 so I cannot buy the toy')\nelse:\t\n    print('I can buy a toy')"
+}

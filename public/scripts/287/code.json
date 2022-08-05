@@ -1,0 +1,16 @@
+{
+    "lesson": "287",
+    "type": 3,
+    "code": "txt='12'\nprint(txt.isdigit())",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut11",
+                "img": "Checks if string contains only numbers",
+                "code": "txt='12'\nprint(txt.isdigit())",
+                "audio": "Py_Eng_Lesson_287_1.mp3"
+            }
+        ]
+    }
+}

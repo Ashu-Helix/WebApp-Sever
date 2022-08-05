@@ -1,0 +1,16 @@
+{
+    "lesson": "194",
+    "type": 3,
+    "code": "a=(1,2,3)\nprint(a)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut7",
+                "img": "Tuples with numbers",
+                "code": "a=(1,2,3)",
+                "audio": "Py_Eng_Lesson_194_1.mp3"
+            }
+        ]
+    }
+}

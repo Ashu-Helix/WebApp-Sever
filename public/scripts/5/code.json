@@ -1,0 +1,28 @@
+{
+    "lesson": "5",
+    "type": 3,
+    "code": "a = 9\nb = 6\nc = a + b\nprint(c)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Let's add two numbers",
+                "code": "",
+                "audio": "Py_Eng_Lesson_5_1.mp3"
+            },
+            {
+                "id": "tut21",
+                "img": "a,b,c are variables. Each variable is storing a number as a value",
+                "code": "a =",
+                "audio": "Py_Eng_Lesson_5_2.mp3"
+            },
+            {
+                "id": "tut31",
+                "img": "The values of a & b are added and stored in c",
+                "code": "a = 9\nb = 6\nc",
+                "audio": "Py_Eng_Lesson_5_3.mp3"
+            }
+        ]
+    }
+}

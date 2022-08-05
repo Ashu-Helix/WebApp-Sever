@@ -420,10 +420,76 @@ function getNoOfBlocks() {
 
 const updateImports = ["import * from beach_crab"]
 
+const instruction = {
+    "heading": "You are instruc fisherman. Catch the crabs before they dissappear into the sea. If 3 crabs escape into the sea, you lose",
+    "steps": [
+        {
+            "title": "Start the game",
+            "text": "Start the game",
+            "rescue": false,
+            "checkbox": true,
+            "workspace": ""
+        },
+        {
+            "title": "Initialize Variables",
+            "text": "set score to 0",
+            "rescue": false,
+            "checkbox": true,
+            "workspace": ""
+        },
+        {
+            "text": "set lives to 3",
+            "rescue": false,
+            "checkbox": true,
+            "workspace": ""
+        },
+        {
+            "title": "Repeat forever loop",
+            "text": "The following statements should function within the loop",
+            "rescue": false,
+            "checkbox": true,
+            "workspace": ""
+        },
+        {
+            "title": "Catch crab",
+            "text": "If I touch Crab, hide crab, change score by 1",
+            "rescue": false,
+            "checkbox": true,
+            "workspace": ""
+        },
+        {
+            "title": "Crab escapes",
+            "text": "If crab touches sea, change lives by -1",
+            "rescue": false,
+            "checkbox": true,
+            "workspace": ""
+        },
+        {
+            "title": "Game over",
+            "text": "If lives less than or equal to 0, Game over",
+            "rescue": false,
+            "checkbox": true,
+            "workspace": ""
+        },
+        {
+            "title": "Instructions to play the game:",
+            "text": "Touch the crabs to grab/catch them. Catch the crabs before they dissappear into the sea. If 3 crabs escape into the sea, you lose.",
+            "rescue": false,
+            "checkbox": true,
+            "workspace": ""
+        },
+        {
+            "title": "Instructions to submit test:",
+            "text": "Finish the code and run the game, play it. It will get submitted once you finish playing once."
+        }
+    ],
+};
+
 export {
     completedFlag,
     myUpdateFunction,
-    helpCode,
+    // helpCode,
+    instruction,
     runCode,
     reset_output,
     reInitValues,

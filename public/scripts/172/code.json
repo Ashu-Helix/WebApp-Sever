@@ -1,0 +1,22 @@
+{
+    "lesson": "172",
+    "type": 3,
+    "code": "list=[True,'Toy',3,4.5,13.4]\nprint(len(list))",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut9",
+                "img": "Len() function will count the length of list",
+                "code": "list=[True,'Toy',3,4.5,13.4]\nprint(len",
+                "audio": "Py_Eng_Lesson_172_1.mp3"
+            },
+            {
+                "id": "tut10",
+                "img": "Each element will be counted as  1",
+                "code": "list=[True,'Toy',3,4.5,13.4]\nprint(len(list))",
+                "audio": "Py_Eng_Lesson_172_2.mp3"
+            }
+        ]
+    }
+}

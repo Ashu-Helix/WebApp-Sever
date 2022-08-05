@@ -1,0 +1,16 @@
+{
+    "lesson": "297",
+    "type": 3,
+    "code": "mylist=['ram','sam','vicky']\nx=\"#\".join(mylist)\nprint(x)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut17",
+                "img": "Joins all elements of a list to a string and uses # as separator",
+                "code": "mylist=['ram','sam','vicky']\nx=\"#\".join",
+                "audio": "Py_Eng_Lesson_297_1.mp3"
+            }
+        ]
+    }
+}

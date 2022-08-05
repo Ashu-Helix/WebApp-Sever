@@ -1,0 +1,22 @@
+{
+    "lesson": "245",
+    "type": 3,
+    "code": "dictionary={'car1':'maruti','carnumber':3453,'Red':True}\nprint(len(dictionary))",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut13",
+                "img": "Len will count the number of key and value pair",
+                "code": "dictionary={'car1':'maruti','carnumber':3453,'Red':True}\nprint(len",
+                "audio": "Py_Eng_Lesson_245_1.mp3"
+            },
+            {
+                "id": "tut14",
+                "img": "Total 3 key and value pairs",
+                "code": "dictionary={'car1':'maruti','carnumber':3453,'Red':True}\nprint(len(dictionary))",
+                "audio": "Py_Eng_Lesson_245_2.mp3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "lesson": "115",
+    "type": 3,
+    "code": "num1,num2 = input().split()\nprint(num1 + num2)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Another way of accepting multiple inputs",
+                "code": "num1,num2 = input().split()",
+                "audio": "Py_Eng_Lesson_115_1.mp3"
+            },
+            {
+                "id": "tut2",
+                "img": "Pass 2 inputs in the box ex., 4 5",
+                "code": "",
+                "audio": "Py_Eng_Lesson_115_2.mp3"
+            }
+        ]
+    }
+}

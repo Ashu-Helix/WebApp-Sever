@@ -1,0 +1,16 @@
+{
+    "lesson": "57",
+    "type": 3,
+    "code": "climate='Raining'\nif climate=='Raining': print('Do not play outside')   print('Because its raining')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut25",
+                "img": "\nIt will\nerror out because there are 2 print statements to execute and all the code should\nnot be given in same line",
+                "code": "climate='Raining'\nif climate=='Raining': print('Do not play outside')   print('Because its raining')",
+                "audio": "Py_Eng_Lesson_57_1.mp3"
+            }
+        ]
+    }
+}

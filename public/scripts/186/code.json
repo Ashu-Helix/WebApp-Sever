@@ -1,0 +1,16 @@
+{
+    "lesson": "186",
+    "type": 3,
+    "code": "a=['grapes','pineapple','apple','banana','cherry']\nprint('List a is ' ,a)\nb=a.copy()\nprint('Copied list is  ',b)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut2",
+                "img": "Copy method creates a copy of the list",
+                "code": "a=['grapes','pineapple','apple','banana','cherry']\nprint('List a is ' ,a)\nb=a.copy",
+                "audio": "Py_Eng_Lesson_186_1.mp3"
+            }
+        ]
+    }
+}

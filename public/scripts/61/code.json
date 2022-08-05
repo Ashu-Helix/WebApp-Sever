@@ -1,0 +1,16 @@
+{
+    "lesson": "61",
+    "type": 3,
+    "code": "a=10\nb=5\nc=4\nif a>b or a>c:\n    print('a is greater than b or c')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut22",
+                "img": "Checks whether a is greater than b or a is greater than c. \nCombination of 2 conditions. Atleast 1 should be True",
+                "code": "a=10\nb=5\nc=4\nif a>b or a>c:",
+                "audio": "Py_Eng_Lesson_61_1.mp3"
+            }
+        ]
+    }
+}

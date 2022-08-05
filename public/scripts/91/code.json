@@ -1,0 +1,16 @@
+{
+    "lesson": "91",
+    "type": 3,
+    "code": "a=10\nb=50\nc=4\nif a>b & a>c:\n    print('a is greater than b and c')\nelse:\n    print('a is not greater than b and c')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "& symbol can also be used for AND operator",
+                "code": "a=10\nb=50\nc=4\nif a>b &",
+                "audio": "Py_Eng_Lesson_91_1.mp3"
+            }
+        ]
+    }
+}

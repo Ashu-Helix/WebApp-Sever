@@ -1,0 +1,16 @@
+{
+    "lesson": "282",
+    "type": 3,
+    "code": "txt='i love apples'\nprint(txt.endswith('p'))",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut8",
+                "img": "It checks if string ends with letter p",
+                "code": "txt='i love apples'\nprint(txt.endswith('p'))",
+                "audio": "Py_Eng_Lesson_282_1.mp3"
+            }
+        ]
+    }
+}

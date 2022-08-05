@@ -1,0 +1,22 @@
+{
+    "lesson": "72",
+    "type": 3,
+    "code": "climate='Raining'\nif climate=='Sunny':\n    print('Can play outside')\nelse:\n    print('you cannot play outside')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "If\nclimate is Sunny, you can play outside",
+                "code": "climate='Raining'\nif climate=='Sunny':",
+                "audio": "Py_Eng_Lesson_72_1.mp3"
+            },
+            {
+                "id": "tut1",
+                "img": "\nIf climate is not sunny, you cannot play outside\n",
+                "code": "climate='Raining'\nif climate=='Sunny':\n    print('Can play outside')\nelse:\n    print('you cannot play outside')",
+                "audio": "Py_Eng_Lesson_72_2.mp3"
+            }
+        ]
+    }
+}

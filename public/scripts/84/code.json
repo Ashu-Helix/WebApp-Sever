@@ -1,0 +1,4 @@
+{
+    "type": 5,
+    "code": "#Edit code and try anything on Conditions!\na=10\nb=15\nif a!=b:\n    print('a and b are not equal')\nelse:\n    print('a and b are equal')"
+}

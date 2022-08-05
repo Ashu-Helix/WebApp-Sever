@@ -1,0 +1,16 @@
+{
+    "lesson": "283",
+    "type": 3,
+    "code": "txt='class6'\nprint(txt.isalnum())",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut9",
+                "img": "Checks if string has just alphabets and numbers",
+                "code": "txt='class6'\nprint(txt.isalnum())",
+                "audio": "Py_Eng_Lesson_283_1.mp3"
+            }
+        ]
+    }
+}

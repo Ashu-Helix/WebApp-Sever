@@ -1,0 +1,16 @@
+{
+    "lesson": "246",
+    "type": 3,
+    "code": "dictionary={'car1':'maruti','carnumber':3453,'Red':True}\nprint(dictionary.get('car1'))",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Get method will get the value for the key",
+                "code": "dictionary={'car1':'maruti','carnumber':3453,'Red':True}\nprint(dictionary.get",
+                "audio": "Py_Eng_Lesson_246_1.mp3"
+            }
+        ]
+    }
+}

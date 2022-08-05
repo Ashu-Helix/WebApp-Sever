@@ -1,0 +1,16 @@
+{
+    "lesson": "262",
+    "type": 3,
+    "code": "mydict={\"name\":\"raj\",\"class\":\"6\",\"year\":2022}\nprint(mydict.keys())",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut5",
+                "img": "Items will display all the key and value pairs",
+                "code": "mydict={\"name\":\"raj\",\"class\":\"6\",\"year\":2022}\nprint(mydict.keys())",
+                "audio": "Py_Eng_Lesson_262_1.mp3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "lesson": "273",
+    "type": 3,
+    "code": "str='Hello Buddy'\nprint(str.lower())",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut3",
+                "img": "Lower will convert the letters to lower case",
+                "code": "str='Hello Buddy'\nprint(str.lower",
+                "audio": "Py_Eng_Lesson_273_1.mp3"
+            }
+        ]
+    }
+}

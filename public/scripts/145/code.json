@@ -1,0 +1,16 @@
+{
+    "lesson": "145",
+    "type": 3,
+    "code": "n = 5\nwhile n > 0:\n    n -= 1\n    if n == 2:\n        continue\n    print(n)\nprint('Loop ended.')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut18",
+                "img": "Continue terminates the current iteration ",
+                "code": "n = 5\nwhile n > 0:\n    n -= 1\n    if n == 2:\n        continue",
+                "audio": "Py_Eng_Lesson_145_1.mp3"
+            }
+        ]
+    }
+}

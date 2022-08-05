@@ -1,0 +1,28 @@
+{
+    "lesson": "8",
+    "type": 3,
+    "code": "a = 9\nprint(a)\n\na = \"hi\"\nprint(a)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Variables can be reused and rewritten",
+                "code": "",
+                "audio": "Py_Eng_Lesson_8_1.mp3"
+            },
+            {
+                "id": "tut21",
+                "img": "assigning 9 to variable a",
+                "code": "a =",
+                "audio": "Py_Eng_Lesson_8_2.mp3"
+            },
+            {
+                "id": "tut31",
+                "img": "reassigning 'hi' to the same variable",
+                "code": "a = 9\nprint(a)\n\na =",
+                "audio": "Py_Eng_Lesson_8_3.mp3"
+            }
+        ]
+    }
+}

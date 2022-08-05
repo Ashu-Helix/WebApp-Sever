@@ -1,0 +1,16 @@
+{
+    "lesson": "218",
+    "type": 3,
+    "code": "a={3,4,5,'chennai','Delhi',True}\nprint(a)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Sets can contain mixed data types",
+                "code": "",
+                "audio": "Py_Eng_Lesson_218_1.mp3"
+            }
+        ]
+    }
+}

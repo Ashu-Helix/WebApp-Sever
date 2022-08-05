@@ -1,0 +1,71 @@
+{
+    "QuestionArr": [
+        {
+            "id": 1,
+            "title": "",
+            "question": "________ are special words understood by python",
+            "subQuestion": "",
+            "options": [
+                "Keywords",
+                "Special Words"
+            ],
+            "correct_answer": "Keywords",
+            "correct_msg": "1 correct_msg",
+            "incorrect_msg": "1 incorrect_msg"
+        },
+        {
+            "id": 2,
+            "title": "Let’s learn naming rules.",
+            "question": "Naming rule #1:  A variable name cannot start with a number.\n\n9a = 9",
+            "subQuestion": "Is this correct?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correct_answer": "Yes",
+            "correct_msg": "2 correct_msg",
+            "incorrect_msg": "2 incorrect_msg"
+        },
+        {
+            "id": 3,
+            "title": "The 4 naming rules are:",
+            "question": "•\tA variable name must start with a letter or underscore character.\n\n•\tA variable name cannot start with a number.\n\n•\tA variable name can only contain alpha-numeric characters and underscores (A-z,0-9 and _)\n\n•\tVariable names are case sensitive (age, Age and AGE are three different variables)",
+            "subQuestion": "",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correct_answer": "Yes",
+            "correct_msg": "3 correct_msg",
+            "incorrect_msg": "3 incorrect_msg"
+        },
+        {
+            "id": 4,
+            "title": "",
+            "question": "What is a type casting in python?",
+            "subQuestion": "",
+            "options": [
+                "Change Data Type Property",
+                "Declaration of Data Type"
+            ],
+            "correct_answer": "Change Data Type Property",
+            "correct_msg": "4 correct_msg",
+            "incorrect_msg": "4 incorrect_msg"
+        },
+        {
+            "id": 5,
+            "title": "Select the right order.",
+            "question": "print_  ______  _ _",
+            "subQuestion": "",
+            "options": [
+                "“ )( ” Hello",
+                " (Hello) ",
+                " )Hello( ",
+                "( “ Hello ” )"
+            ],
+            "correct_answer": "( “ Hello ” )",
+            "correct_msg": "5 correct_msg",
+            "incorrect_msg": "5 incorrect_msg"
+        }
+    ]
+}

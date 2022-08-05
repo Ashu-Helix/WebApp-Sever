@@ -1,0 +1,40 @@
+{
+    "lesson": "125",
+    "type": 3,
+    "code": "i=1\nwhile i<=5:\n    print('Hello')\n    i=i+1",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "\nWhile loop\nLoops are used to repeat a block of code\n",
+                "code": "",
+                "audio": "Py_Eng_Lesson_125_1.mp3"
+            },
+            {
+                "id": "tut2",
+                "img": "\nGive\nvariable I, a starting value",
+                "code": "i=1",
+                "audio": "Py_Eng_Lesson_125_2.mp3"
+            },
+            {
+                "id": "tut3",
+                "img": "\n\nWhile loop will iterate over the block of code as long as\ni<= 5",
+                "code": "i=1\nwhile ",
+                "audio": "Py_Eng_Lesson_125_3.mp3"
+            },
+            {
+                "id": "tut6",
+                "img": "\n\n\n\nFollow indentation\n\n",
+                "code": "i=1\nwhile i<=5:\n    ",
+                "audio": "Py_Eng_Lesson_125_4.mp3"
+            },
+            {
+                "id": "tut7",
+                "img": "\n\n\n\n\nIncrement the I variable . If not done, the loop will never\nend\n\n\n",
+                "code": "i=1\nwhile i<=5:\n    print('Hello')\n    i=i+1",
+                "audio": "Py_Eng_Lesson_125_5.mp3"
+            }
+        ]
+    }
+}

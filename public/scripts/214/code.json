@@ -1,0 +1,16 @@
+{
+    "lesson": "214",
+    "type": 3,
+    "code": "a=set(['red','blue','green'])\nprint(a)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Creation of set using SET constructor",
+                "code": "a=set",
+                "audio": "Py_Eng_Lesson_214_1.mp3"
+            }
+        ]
+    }
+}

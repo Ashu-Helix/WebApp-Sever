@@ -1,0 +1,16 @@
+{
+    "lesson": "221",
+    "type": 3,
+    "code": "a={'red','blue','green'}\nprint(a)\na.add('yellow')\nprint(a)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut2",
+                "img": "Add method will add an element to the set",
+                "code": "a={'red','blue','green'}\nprint(a)\na.add(",
+                "audio": "Py_Eng_Lesson_221_1.mp3"
+            }
+        ]
+    }
+}

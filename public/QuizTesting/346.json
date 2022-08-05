@@ -1,0 +1,9 @@
+{ "QuestionArr": [{
+"id": 346,
+"question":"Range function returns a sequence of",
+"options":["Numbers","Alphabets"],
+"correct_answer":"True",
+"correct_msg":"",
+"incorrect_msg":""
+}
+ ]}

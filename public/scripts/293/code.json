@@ -1,0 +1,16 @@
+{
+    "lesson": "293",
+    "type": 3,
+    "code": "txt='Hello World'\nprint(txt.istitle())",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut15",
+                "img": "Checks if string is in title case. Title case will have first characters of words in upper case",
+                "code": "txt='Hello World'\nprint(txt.istitle())",
+                "audio": "Py_Eng_Lesson_293_1.mp3"
+            }
+        ]
+    }
+}

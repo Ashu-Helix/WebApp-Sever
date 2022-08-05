@@ -1,0 +1,28 @@
+{
+    "lesson": "242",
+    "type": 3,
+    "code": "dictionary={'car1':'maruti','carnumber':3453,'Red':True}\nprint(dictionary)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut10",
+                "img": "carnumber is the key",
+                "code": "dictionary={'car1':'maruti','carnumber'",
+                "audio": "Py_Eng_Lesson_242_1.mp3"
+            },
+            {
+                "id": "tut11",
+                "img": "3453 is the value",
+                "code": "dictionary={'car1':'maruti','carnumber':3453",
+                "audio": "Py_Eng_Lesson_242_2.mp3"
+            },
+            {
+                "id": "tut12",
+                "img": "Value can be of any data type",
+                "code": "dictionary={'car1':'maruti','carnumber':3453,'Red':True}",
+                "audio": "Py_Eng_Lesson_242_3.mp3"
+            }
+        ]
+    }
+}

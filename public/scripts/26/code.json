@@ -1,0 +1,4 @@
+{
+    "type": 5,
+    "code": "#Edit code and try anything with type casting!\nx = int(1)\ny = int(2.8)\nz = int(\"3\")\nprint(x,y,z)\n\nx = float(1)\ny = float(2.8)\nz = float(\"3\")\nw = float(\"4.2\")\nprint(x,y,z,w)\n\nx = str(\"s1\")\ny = str(2)\nz = str(3.0)\nprint(x,y,z)"
+}

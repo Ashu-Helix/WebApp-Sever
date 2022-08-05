@@ -12,7 +12,9 @@ import "blockly/python";
 import "blockly/javascript";
 import MSPhaserLib from "../msPhaserLib.min";
 import { CANVAS, Game, AUTO } from "phaser";
-const demoWorkspace = Blockly.getMainWorkspace();
+
+let demoWorkspace = Blockly.getMainWorkspace();
+let noOfBlocks;
 
 let _gameThis = null;
 const baseURL = "../img/images/";
@@ -417,6 +419,13 @@ function completedFlag() {
     return is_game_completed;
 }
 
+function getNoOfBlocks() {
+    demoWorkspace = Blockly.getMainWorkspace();
+    noOfBlocks = demoWorkspace.getAllBlocks();
+    return noOfBlocks.length
+}
+
+const updateImports = ["import doctor", "import time"];
 
 export {
     completedFlag,
@@ -433,7 +442,8 @@ export {
     giveMedicine,
     createDialogue,
     getPatientTemperature,
-
+    getNoOfBlocks,
+    updateImports
 }
 
 // var xml = Blockly.Xml.workspaceToDom(demoWorkspace);

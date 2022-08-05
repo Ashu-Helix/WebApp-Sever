@@ -1,0 +1,16 @@
+{
+    "lesson": "37",
+    "type": 3,
+    "code": "money=20\nif money<35:\n    print('I have less than Rs.35, so I cannot buy the toy')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut13",
+                "img": "\n\n\nIf i have less than Rs.35, then i cannot buy the toy",
+                "code": "money=20\nif money<35:",
+                "audio": "Py_Eng_Lesson_37_1.mp3"
+            }
+        ]
+    }
+}

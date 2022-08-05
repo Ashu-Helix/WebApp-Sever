@@ -1,0 +1,40 @@
+{
+    "lesson": "23",
+    "type": 3,
+    "code": "x = str(\"s1\")\ny = str(2)\nz = str(3.0)\nprint(x,y,z)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Let's learn to type cast data into String",
+                "code": "",
+                "audio": "Py_Eng_Lesson_23_1.mp3"
+            },
+            {
+                "id": "tut21",
+                "img": "x will be 's1'",
+                "code": "x = str",
+                "audio": "Py_Eng_Lesson_23_2.mp3"
+            },
+            {
+                "id": "tut31",
+                "img": "y will be '2'",
+                "code": "x = str(\"s1\")\ny = str",
+                "audio": "Py_Eng_Lesson_23_3.mp3"
+            },
+            {
+                "id": "tut41",
+                "img": "z will be '3.0'",
+                "code": "x = str(\"s1\")\ny = str(2)\nz = str",
+                "audio": "Py_Eng_Lesson_23_4.mp3"
+            },
+            {
+                "id": "tut2",
+                "img": "since integer and float gets converted into string data type",
+                "code": "x = str(\"s1\")\ny = str(2)\nz = str(3.0)\nprint",
+                "audio": "Py_Eng_Lesson_23_5.mp3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "lesson": "27",
+    "type": 3,
+    "code": "a = 9\nb = 6\nprint(a+b)\nprint(a-b)\nprint(a*b)\nprint(a/b)\nprint(a**b)\nprint(a%b)\nprint(a//b)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Lets learn about arithmetic operators",
+                "code": "",
+                "audio": "Py_Eng_Lesson_27_1.mp3"
+            },
+            {
+                "id": "tut2",
+                "img": "+ operator is used for addition",
+                "code": "a = 9\nb = 6\nprint(a+",
+                "audio": "Py_Eng_Lesson_27_2.mp3"
+            },
+            {
+                "id": "tut3",
+                "img": "- operator is used for Subtraction",
+                "code": "a = 9\nb = 6\nprint(a+b)\nprint(a-",
+                "audio": "Py_Eng_Lesson_27_3.mp3"
+            },
+            {
+                "id": "tut4",
+                "img": "* operator is used for Multiplication",
+                "code": "a = 9\nb = 6\nprint(a+b)\nprint(a-b)\nprint(a*",
+                "audio": "Py_Eng_Lesson_27_4.mp3"
+            },
+            {
+                "id": "tut5",
+                "img": "/ operator is used for Division",
+                "code": "a = 9\nb = 6\nprint(a+b)\nprint(a-b)\nprint(a*b)\nprint(a/",
+                "audio": "Py_Eng_Lesson_27_5.mp3"
+            },
+            {
+                "id": "tut6",
+                "img": "** operator is used for Exponentiation",
+                "code": "a = 9\nb = 6\nprint(a+b)\nprint(a-b)\nprint(a*b)\nprint(a/b)\nprint(a**",
+                "audio": "Py_Eng_Lesson_27_6.mp3"
+            },
+            {
+                "id": "tut7",
+                "img": "% operator is used for Modulus or remainder",
+                "code": "a = 9\nb = 6\nprint(a+b)\nprint(a-b)\nprint(a*b)\nprint(a/b)\nprint(a**b)\nprint(a%",
+                "audio": "Py_Eng_Lesson_27_7.mp3"
+            },
+            {
+                "id": "tut8",
+                "img": "// operator is used for floor division, that is divide and convert to integer",
+                "code": "a = 9\nb = 6\nprint(a+b)\nprint(a-b)\nprint(a*b)\nprint(a/b)\nprint(a**b)\nprint(a%b)\nprint(a//",
+                "audio": "Py_Eng_Lesson_27_8.mp3"
+            }
+        ]
+    }
+}

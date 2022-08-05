@@ -1,0 +1,40 @@
+{
+    "lesson": "21",
+    "type": 3,
+    "code": "x = int(1)   \ny = int(2.8) \nz = int(\"3\")\nprint(x,y,z)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Let's learn to type cast data into integers",
+                "code": "",
+                "audio": "Py_Eng_Lesson_21_1.mp3"
+            },
+            {
+                "id": "tut21",
+                "img": "x will be 1",
+                "code": "x = int",
+                "audio": "Py_Eng_Lesson_21_2.mp3"
+            },
+            {
+                "id": "tut31",
+                "img": "y will be 2",
+                "code": "x = int(1)   \ny = int",
+                "audio": "Py_Eng_Lesson_21_3.mp3"
+            },
+            {
+                "id": "tut41",
+                "img": "z will be 3",
+                "code": "x = int(1)   \ny = int(2.8) \nz = int",
+                "audio": "Py_Eng_Lesson_21_4.mp3"
+            },
+            {
+                "id": "tut2",
+                "img": "since float and string gets converted into integer data type",
+                "code": "x = int(1)   \ny = int(2.8) \nz = int(\"3\")\nprint",
+                "audio": "Py_Eng_Lesson_21_5.mp3"
+            }
+        ]
+    }
+}

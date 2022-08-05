@@ -1,0 +1,4 @@
+{
+    "type": 5,
+    "code": "#Edit code and try anything on Conditions!\na=10\nb=50\nc=4\nif a>b and a>c:\n    print('a is greater than b and c')\nelse:\n    print('a is not greater than b and c')"
+}

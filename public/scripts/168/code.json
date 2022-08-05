@@ -1,0 +1,16 @@
+{
+    "lesson": "168",
+    "type": 3,
+    "code": "list=[True,False,True]\nprint(list)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut7",
+                "img": "List with Boolean values",
+                "code": "list=[True,False,True",
+                "audio": "Py_Eng_Lesson_168_1.mp3"
+            }
+        ]
+    }
+}

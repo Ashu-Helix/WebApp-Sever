@@ -1,0 +1,16 @@
+{
+    "lesson": "225",
+    "type": 3,
+    "code": "set1={\"apple\",\"banana\",\"cherry\"}\nprint(set1)\nset2={\"pineapple\",\"mango\",\"papaya\"}\nprint(set2)\nset1.update(set2)\nprint(set1)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut4",
+                "img": "More elements can be added using update method",
+                "code": "set1={\"apple\",\"banana\",\"cherry\"}\nprint(set1)\nset2={\"pineapple\",\"mango\",\"papaya\"}\nprint(set2)\nset1.update",
+                "audio": "Py_Eng_Lesson_225_1.mp3"
+            }
+        ]
+    }
+}

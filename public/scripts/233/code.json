@@ -1,0 +1,22 @@
+{
+    "lesson": "233",
+    "type": 3,
+    "code": "subjects={'maths','english','science'}\ndel subjects",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "del will delete the set subjects",
+                "code": "subjects={'maths','english','science'}\ndel",
+                "audio": "Py_Eng_Lesson_233_1.mp3"
+            },
+            {
+                "id": "tut2",
+                "img": "Set is deleted so there will be no output",
+                "code": "subjects={'maths','english','science'}\ndel subjects",
+                "audio": "Py_Eng_Lesson_233_2.mp3"
+            }
+        ]
+    }
+}

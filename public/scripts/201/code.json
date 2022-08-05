@@ -1,0 +1,16 @@
+{
+    "lesson": "201",
+    "type": 3,
+    "code": "tup=('audi','benz','nexus')\nprint(tup)\nprint('Length of tuple is ',len(tup))",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Len function counts the number of elements in the tuple",
+                "code": "tup=('audi','benz','nexus')\nprint(tup)\nprint('Length of tuple is ',len",
+                "audio": "Py_Eng_Lesson_201_1.mp3"
+            }
+        ]
+    }
+}

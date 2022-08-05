@@ -1,0 +1,16 @@
+{
+    "lesson": "177",
+    "type": 3,
+    "code": "a=['apple','banana','cherry']\nprint('list a is ',a)\nb=['water melon','Mango']\nprint('list b is ',b)\nc=a+b\nprint('list c is ',c)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut3",
+                "img": "Two lists can be merged using + operator",
+                "code": "a=['apple','banana','cherry']\nprint('list a is ',a)\nb=['water melon','Mango']\nprint('list b is ',b)\nc=a+",
+                "audio": "Py_Eng_Lesson_177_1.mp3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "lesson": "182",
+    "type": 3,
+    "code": "a=['apple','banana','cherry']\nprint('list a is ',a)\na.append('grapes')\nprint('New list a is ',a)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut6",
+                "img": "\nAppend is used to add element to the list",
+                "code": "a=['apple','banana','cherry']\nprint('list a is ',a)\na.append",
+                "audio": "Py_Eng_Lesson_182_1.mp3"
+            }
+        ]
+    }
+}

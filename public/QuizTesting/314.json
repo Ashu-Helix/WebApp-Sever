@@ -1,0 +1,9 @@
+{ "QuestionArr": [{
+"id": 314,
+"question":"In sets and tuples for loops read thru element by element?",
+"options":["Yes","No"],
+"correct_answer":"True",
+"correct_msg":"",
+"incorrect_msg":""
+}
+ ]}

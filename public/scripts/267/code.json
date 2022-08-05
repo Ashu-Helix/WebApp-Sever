@@ -1,0 +1,16 @@
+{
+    "lesson": "267",
+    "type": 3,
+    "code": "mydict={\"name\":\"raj\",\"class\":\"6\",\"year\":2022}\nnewdict=dict(mydict)\nprint(newdict)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut8",
+                "img": "Dict constructor will also create a copy of the dictionary",
+                "code": "mydict={\"name\":\"raj\",\"class\":\"6\",\"year\":2022}\nnewdict=dict(mydict)",
+                "audio": "Py_Eng_Lesson_267_1.mp3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "lesson": "229",
+    "type": 3,
+    "code": "set1={\"apple\",\"banana\",\"cherry\"}\nprint(set1)\nset1.discard('cherry')\nprint(set1)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut5",
+                "img": "Remove will remove the specific element from the set",
+                "code": "set1={\"apple\",\"banana\",\"cherry\"}\nprint(set1)\nset1.discard",
+                "audio": "Py_Eng_Lesson_229_1.mp3"
+            }
+        ]
+    }
+}

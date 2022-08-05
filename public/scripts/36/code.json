@@ -1,0 +1,16 @@
+{
+    "lesson": "36",
+    "type": 3,
+    "code": "money=50\nif money>30:\n    print('I have more than Rs.30, so I can buy the toy')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "\n\n\nCost of toy is Rs.35 so checking if i have more than Rs.30",
+                "code": "money=50\nif money>30:",
+                "audio": "Py_Eng_Lesson_36_1.mp3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "lesson": "278",
+    "type": 3,
+    "code": "txt=\"Hello And Welcome\"\nprint(txt.center(60,'#'))",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut6",
+                "img": "Center method will center align the string and spaces will be filled with #",
+                "code": "txt=\"Hello And Welcome\"\nprint(txt.center(60,'#'",
+                "audio": "Py_Eng_Lesson_278_1.mp3"
+            }
+        ]
+    }
+}

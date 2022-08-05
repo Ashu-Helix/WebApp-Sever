@@ -1,35 +1,34 @@
 {
+    "lesson": "19",
+    "type": 3,
     "code": "a = \"Hello World\"\nb = 20\nc = 20.5",
-    "guide": [
-        {
-            "id": "intro",
-            "img": "intro_datatypes.png",
-            "code": "",
-            "audio": ""
-        },
-        {
-            "id": "tip0",
-            "img": "tip_0_strings.png",
-            "code": "a",
-            "audio": "line12.mp3"
-        },
-        {
-            "id": "tip1",
-            "img": "tip_1_double quotation.png",
-            "code": "a = \"Hello World\"",
-            "audio": "line14.mp3"
-        },
-        {
-            "id": "tip2",
-            "img": "tip_2_integer.png",
-            "code": "a = \"Hello World\"",
-            "audio": "line18.mp3"
-        },
-        {
-            "id": "tip3",
-            "img": "tip_3_float.png",
-            "code": "a = \"Hello World\"\nb = 20\nc",
-            "audio": "line20.mp3"
-        }
-    ]
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "variable a contains a value of string datatype. Strings can contain letters, numbers and special characters, eg. $",
+                "code": "a",
+                "audio": "Py_Eng_Lesson_19_1.mp3"
+            },
+            {
+                "id": "tut21",
+                "img": "String in python are surrounded by wither single or double quotation marks/ \"hello\" is same as 'hello'",
+                "code": "a = \"Hello World\"",
+                "audio": "Py_Eng_Lesson_19_2.mp3"
+            },
+            {
+                "id": "tut31",
+                "img": "B contains a value of Integer data type. Integers are zero, positive or negative numbers without decimal",
+                "code": "a = \"Hello World\"\nb",
+                "audio": "Py_Eng_Lesson_19_3.mp3"
+            },
+            {
+                "id": "tut41",
+                "img": "C contains a value of Float data type. Float is any number with decimal",
+                "code": "a = \"Hello World\"\nb = 20\nc",
+                "audio": "Py_Eng_Lesson_19_4.mp3"
+            }
+        ]
+    }
 }

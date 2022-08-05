@@ -1,0 +1,16 @@
+{
+    "lesson": "302",
+    "type": 3,
+    "code": "txt=\"i am in india\"\nx=txt.replace(\"india\", \"russia\")\nprint(x)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut4",
+                "img": "Replaces one word to another",
+                "code": "txt=\"i am in india\"\nx=txt.replace",
+                "audio": "Py_Eng_Lesson_302_1.mp3"
+            }
+        ]
+    }
+}

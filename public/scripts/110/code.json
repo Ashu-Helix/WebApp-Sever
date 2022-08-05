@@ -1,0 +1,16 @@
+{
+    "lesson": "110",
+    "type": 3,
+    "code": "num1 = float(input('Enter a number'))\nnum2 = float(input('Enter another number'))\nprint(num1 + num2)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut3",
+                "img": "\nconverting string to float",
+                "code": "num1 = float(input('Enter a number'))",
+                "audio": "Py_Eng_Lesson_110_1.mp3"
+            }
+        ]
+    }
+}

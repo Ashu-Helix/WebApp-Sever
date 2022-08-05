@@ -1,0 +1,4 @@
+{
+    "type": 5,
+    "code": "#Edit code and try anything on Arithmetic operations!\na = 9\nb = 6\nprint(a+b)\nprint(a-b)\nprint(a*b)\nprint(a/b)\nprint(a**b)\nprint(a%b)\nprint(a//b)"
+}

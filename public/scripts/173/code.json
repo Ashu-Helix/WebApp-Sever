@@ -1,0 +1,16 @@
+{
+    "lesson": "173",
+    "type": 3,
+    "code": "a=list(('apple','banana','cherry'))\nprint(a)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Creating list using list constructor",
+                "code": "a=list(",
+                "audio": "Py_Eng_Lesson_173_1.mp3"
+            }
+        ]
+    }
+}

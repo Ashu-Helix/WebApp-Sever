@@ -1,0 +1,62 @@
+{
+    "QuestionArr": [
+        {
+            "id": 1,
+            "question": "<p>________ are special words understood by python</p>",
+            "options": [
+                "Keywords",
+                "Special Words"
+            ],
+            "correct_answer": "Keywords",
+            "correct_msg": "1 correct_msg",
+            "incorrect_msg": "1 incorrect_msg"
+        },
+        {
+            "id": 2,
+            "question": "<h3>Let's learn naming rules.</h3><p>Naming rule #1:  A variable name cannot start with a number.</p><p>9a = 9</p><b>Is this correct?</b>",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correct_answer": "Yes",
+            "correct_msg": "2 correct_msg",
+            "incorrect_msg": "2 incorrect_msg"
+        },
+        {
+            "id": 3,
+            "question": "<h3>The 4 naming rules are:</h3><ul><li>A variable name must start with a letter or underscore character.</li><li>A variable name cannot start with a number.</li><li>A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9 and _)</li><li>Variable names are case sensitive (age, Age and AGE are three different variables)</li></ul>",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correct_answer": "Yes",
+            "correct_msg": "3 correct_msg",
+            "incorrect_msg": "3 incorrect_msg"
+        },
+        {
+            "id": 4,
+            "question": "<p>What is a type casting in python?</p>",
+            "options": [
+                "Change Data Type Property",
+                "Declaration of Data Type"
+            ],
+            "correct_answer": "Change Data Type Property",
+            "correct_msg": "4 correct_msg",
+            "incorrect_msg": "4 incorrect_msg"
+        },
+        {
+            "id": 5,
+            "title": "<h3>Select the right order.</h3>",
+            "question": "<p>print_  ______  _ _</p>",
+            "options": [
+                "“ )( ” Hello",
+                " (Hello) ",
+                " )Hello( ",
+                "( “ Hello ” )"
+            ],
+            "correct_answer": "( “ Hello ” )",
+            "correct_msg": "5 correct_msg",
+            "incorrect_msg": "5 incorrect_msg"
+        }
+    ]
+}

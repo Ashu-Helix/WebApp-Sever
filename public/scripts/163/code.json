@@ -1,0 +1,28 @@
+{
+    "lesson": "163",
+    "type": 3,
+    "code": "list=['Pencil','Sharpner','Notebook','Toy','Ice cream']\nprint(list)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "List\nLists are similar to your shopping list",
+                "code": "",
+                "audio": "Py_Eng_Lesson_163_1.mp3"
+            },
+            {
+                "id": "tut2",
+                "img": "It should start and end with square brackets",
+                "code": "list=[",
+                "audio": "Py_Eng_Lesson_163_2.mp3"
+            },
+            {
+                "id": "tut3",
+                "img": "Any number of items can be added to list",
+                "code": "list=['Pencil','Sharpner','Notebook'",
+                "audio": "Py_Eng_Lesson_163_3.mp3"
+            }
+        ]
+    }
+}

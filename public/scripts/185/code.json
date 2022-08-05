@@ -1,0 +1,16 @@
+{
+    "lesson": "185",
+    "type": 3,
+    "code": "a=['grapes','pineapple','apple','banana','cherry']\nprint('List a is ' ,a)\na.clear()\nprint('The list is empty ',a)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut1",
+                "img": "Clear method removes all the elements in the list",
+                "code": "a=['grapes','pineapple','apple','banana','cherry']\nprint('List a is ' ,a)\na.clear(",
+                "audio": "Py_Eng_Lesson_185_1.mp3"
+            }
+        ]
+    }
+}

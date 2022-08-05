@@ -1,0 +1,16 @@
+{
+    "lesson": "294",
+    "type": 3,
+    "code": "txt='I AM IN SCHOOL'\nprint(txt.isupper())",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut16",
+                "img": "Checks if string is in upper case",
+                "code": "txt='I AM IN SCHOOL'\nprint(txt.isupper())",
+                "audio": "Py_Eng_Lesson_294_1.mp3"
+            }
+        ]
+    }
+}

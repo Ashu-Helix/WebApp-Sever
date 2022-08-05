@@ -1,0 +1,16 @@
+{
+    "lesson": "79",
+    "type": 3,
+    "code": "money=43.5\nif money==43.5:\n    print('I have 43 rupees and 50 paise')\nelse:\t\n    print('I dont have 43 rupees and 50 paise')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut3",
+                "img": "Float\ndata type works the same way as numeric",
+                "code": "money=43.5\nif money==43.5:",
+                "audio": "Py_Eng_Lesson_79_1.mp3"
+            }
+        ]
+    }
+}

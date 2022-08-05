@@ -1,0 +1,16 @@
+{
+    "lesson": "105",
+    "type": 3,
+    "code": "grade = input('Which class you are studying?: ')\nprint('you are in grade ',grade)",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut2",
+                "img": "\nInput is stored in variable grade and printed below",
+                "code": "grade = input('Which class you are studying?: ')",
+                "audio": "Py_Eng_Lesson_105_1.mp3"
+            }
+        ]
+    }
+}

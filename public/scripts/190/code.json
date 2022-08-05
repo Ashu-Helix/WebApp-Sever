@@ -1,0 +1,16 @@
+{
+    "lesson": "190",
+    "type": 3,
+    "code": "a=['grapes','pineapple','apple']\ndel a",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut4",
+                "img": "del deletes the list",
+                "code": "a=['grapes','pineapple','apple']\ndel a",
+                "audio": "Py_Eng_Lesson_190_1.mp3"
+            }
+        ]
+    }
+}

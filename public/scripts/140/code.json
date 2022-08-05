@@ -1,0 +1,22 @@
+{
+    "lesson": "140",
+    "type": 3,
+    "code": "n = 5\nwhile n > 0:\n    n -= 1\n    if n == 2:\n        break\n    print(n)\nprint('Loop ended.')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut13",
+                "img": "below code will get executed till the condition is true",
+                "code": "n = 5\nwhile n > 0:",
+                "audio": "Py_Eng_Lesson_140_1.mp3"
+            },
+            {
+                "id": "tut14",
+                "img": "Control will come out of the loop if break is applied",
+                "code": "n = 5\nwhile n > 0:\n    n -= 1\n    if n == 2:\n        break",
+                "audio": "Py_Eng_Lesson_140_2.mp3"
+            }
+        ]
+    }
+}

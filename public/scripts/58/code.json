@@ -1,0 +1,16 @@
+{
+    "lesson": "58",
+    "type": 3,
+    "code": "a=100\nb=50\nc=4\nif a>b and a>c:\n    print('a is greater than b and c')",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut19",
+                "img": "\n\n\n\n\nMultiple conditions are checked using AND operator\n",
+                "code": "a=100\nb=50\nc=4\nif a>b and a>c:",
+                "audio": "Py_Eng_Lesson_58_1.mp3"
+            }
+        ]
+    }
+}

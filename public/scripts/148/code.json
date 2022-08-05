@@ -1,0 +1,22 @@
+{
+    "lesson": "148",
+    "type": 3,
+    "code": "a = 1\nb = 10\nwhile a < b:\n    print('Value of b is',b)\n    b = b - 1",
+    "user_code": "",
+    "guide": {
+        "English": [
+            {
+                "id": "tut2",
+                "img": "When value of b is 1, the condition fails and it comes out of the loop",
+                "code": "a=1\nb=10\nwhile a<b:",
+                "audio": "Py_Eng_Lesson_148_1.mp3"
+            },
+            {
+                "id": "tut3",
+                "img": "Decrementing the variable b",
+                "code": "a = 1\nb = 10\nwhile a < b:\n    print('Value of b is',b)\n    b = b - 1",
+                "audio": "Py_Eng_Lesson_148_2.mp3"
+            }
+        ]
+    }
+}
